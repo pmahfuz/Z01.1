@@ -10,20 +10,20 @@ end entity;
 architecture arch of impressora is
 
 begin
-    precess(SW1,SW2,SW3,SW4)
-    begin 
-        if (SW1 = '1' and SW2 = '1') then 
-            x <= '1'
-        elsif (SW1 = '1' and SW3 = '1') then 
-            x <= '1'
-        elsif (SW2 = '1' and SW3 = '1') then 
-            x <= '1'
-        elsif (SW2 = '1' and SW4 = '1') then 
-            x <= '1'
-        lsif (SW3 = '1' and SW4 = '1') then 
-            x <= '1' 
+    process(SW1,SW2,SW3,SW4)
+    begin
+        if (SW1 = '0' and SW2 = '0') then 
+            x <= '1';
+        elsif (SW1 = '0' and SW3 = '0') then 
+            x <= '1';
+        elsif (SW2 = '0' and SW3 = '0') then 
+            x <= '1';
+        elsif (SW2 = '0' and SW4 = '0') then 
+            x <= '1';
+        elsif (SW3 = '0' and SW4 = '0') then 
+            x <= '1'; 
               
         end if;
-    end process
+    end process;
 
 end architecture;
