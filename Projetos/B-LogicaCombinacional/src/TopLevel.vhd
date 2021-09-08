@@ -19,7 +19,6 @@ use work.all;
 ----------------------------
 entity TopLevel is
 	port(
-		CLOCK_50 : in  std_logic;
 		SW       : in  std_logic_vector(9 downto 0);
 		LEDR     : out std_logic_vector(9 downto 0)
 	);
@@ -38,6 +37,8 @@ architecture rtl of TopLevel is
 -- implementacao
 ---------------
 begin
-          
 
+	LEDR(0) <= SW(0) or SW(1);
+	LEDR(1) <= SW(1);
+	
 end rtl;
