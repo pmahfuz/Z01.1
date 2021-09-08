@@ -13,7 +13,10 @@ end entity;
 
 architecture rtl of DMux4Way is
 begin
-
+		a <= q0 when (sel = "00") else
+		 		q1 when (sel = "01") else
+		 		q2 when (sel = "10") else
+		 		q3;
 
 end architecture;
 
