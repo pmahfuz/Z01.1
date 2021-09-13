@@ -10,15 +10,9 @@ end entity;
 architecture arch of detectorDeMoedas is
 
 begin
-    process(Q,D,N)
-    begin 
-        if (Q = '1') then 
-            cents <= "11001";
-        elsif (D = '1') then 
-            cents <= "01010";
-        elsif (N = '1') then
-            cents <= "00101";
-        end if;
-    end process;
+    cents <= "11001" when Q = '1' else
+    "01010" when D ='1' else
+    "00101" when N = '1' else
+        "00000";
 
 end architecture;

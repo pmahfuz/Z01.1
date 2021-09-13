@@ -10,20 +10,5 @@ end entity;
 architecture arch of impressora is
 
 begin
-    process(SW1,SW2,SW3,SW4)
-    begin
-        if (SW1 = '0' and SW2 = '0') then 
-            x <= '1';
-        elsif (SW1 = '0' and SW3 = '0') then 
-            x <= '1';
-        elsif (SW2 = '0' and SW3 = '0') then 
-            x <= '1';
-        elsif (SW2 = '0' and SW4 = '0') then 
-            x <= '1';
-        elsif (SW3 = '0' and SW4 = '0') then 
-            x <= '1'; 
-              
-        end if;
-    end process;
-
+    x <= ((SW1 and SW2) or (SW1 and SW3) or (SW2 and SW3) or (SW2 and SW4) or (SW3 and SW4));
 end architecture;
