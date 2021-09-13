@@ -1,7 +1,14 @@
-# End time: 20:45:28 on Sep 13,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 2
+# do /home/borg/.local/lib/python3.8/site-packages/vunit/sim_if/tcl_read_eval_loop.tcl
+# vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_fulladder.all_06db0ee602f16124af31f0ebe6776ffb6cee0ad1/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_fulladder(tb) -L vunit_lib -L lib -g/tb_fulladder/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_fulladder.all_06db0ee602f16124af31f0ebe6776ffb6cee0ad1/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : true" 
+# Start time: 20:44:56 on Sep 13,2021
+# ** Warning: Design size of 21442 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# Break in Subprogram stop at /home/borg/.local/lib/python3.8/site-packages/vunit/vhdl/core/src/stop_body_2008p.vhd line 13
+# Stopped at /home/borg/.local/lib/python3.8/site-packages/vunit/vhdl/core/src/stop_body_2008p.vhd line 13
+# End time: 20:44:57 on Sep 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
 # vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_inversor16.all_cf124a04e75272dadd8625f1aac52b48d9b344c6/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_inversor16(tb) -L vunit_lib -L lib -g/tb_inversor16/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_inversor16.all_cf124a04e75272dadd8625f1aac52b48d9b344c6/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : true" 
-# Start time: 20:45:28 on Sep 13,2021
+# Start time: 20:44:57 on Sep 13,2021
 # ** Warning: Design size of 21382 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # ** Warning: (vsim-8683) Uninitialized out port /tb_inversor16/inv16/y(15 downto 0) has no driver.
@@ -29,3 +36,5 @@
 #   49 :     a <= x"0000";
 #   50 :     z <= '1';
 # 
+# End time: 20:44:57 on Sep 13,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2

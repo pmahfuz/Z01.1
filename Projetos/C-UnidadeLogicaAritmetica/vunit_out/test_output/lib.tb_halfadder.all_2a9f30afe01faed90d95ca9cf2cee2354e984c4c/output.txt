@@ -1,5 +1,5 @@
 # vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_halfadder.all_2a9f30afe01faed90d95ca9cf2cee2354e984c4c/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_halfadder(tb) -L vunit_lib -L lib -g/tb_halfadder/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_halfadder.all_2a9f30afe01faed90d95ca9cf2cee2354e984c4c/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : true" 
-# Start time: 20:39:50 on Sep 13,2021
+# Start time: 20:45:28 on Sep 13,2021
 # ** Warning: Design size of 21387 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # ** Warning: (vsim-8683) Uninitialized out port /tb_halfadder/u1HalfAdder/soma has no driver.
