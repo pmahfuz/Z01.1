@@ -8,9 +8,11 @@ entity sevenSeg is
 end entity;
 
 architecture arch of sevenSeg is
-begin
-	with bcd select
-		leds <= "0000001" when "0000",   -- 0
+	begin
+
+		with bcd select
+		
+			leds <= "0000001" when "0000", -- Número 0
 					"1001111" when "0001", -- Número 1 
 					"0010010" when "0010", -- Número 2
 					"0000110" when "0011", -- Número 3
@@ -20,6 +22,5 @@ begin
 					"0001111" when "0111", -- Número 7
 					"0000000" when "1000", -- Número 8
 					"0000100" when "1001", -- Número 9
-					"1111111" when others;   -- null
-
-end architecture;
+					"1111111" when others; -- Led Desligado
+	end architecture;
