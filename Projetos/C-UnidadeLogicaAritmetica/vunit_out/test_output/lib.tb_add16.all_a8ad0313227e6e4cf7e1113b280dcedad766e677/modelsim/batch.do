@@ -1,5 +1,5 @@
 onerror {quit -code 1}
-source "/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_add16.all_a8ad0313227e6e4cf7e1113b280dcedad766e677/modelsim/common.do"
+source "/home/borg/Desktop/Elementos/repositorioDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_add16.all_a8ad0313227e6e4cf7e1113b280dcedad766e677/modelsim/common.do"
 set failed [vunit_load]
 if {$failed} {quit -code 1}
 set failed [vunit_run]
