@@ -2,6 +2,12 @@
 -- by Luciano Soares
 -- inversor16.vhd
 
+-- Arquivo : Inversor16.vhd
+-- Descrição : Inverte um vetor de entrada quando o bit de controle n 
+-- (nx ou ny) for igual a '1', e não modifica o vetor de entrada caso contrário. 
+-- O resultado é um novo vetor de 16 bits.
+-- Dependência: Não tem.a
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
@@ -19,6 +25,7 @@ architecture rtl of inversor16 is
   -- utilizados nesse modulo.
 
 begin
-  -- Implementação vem aqui!
-
+  y <= not a when (z = '1') else
+    a;
+    
 end architecture;
