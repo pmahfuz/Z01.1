@@ -56,40 +56,40 @@ u1: binarioToBcd port map(
 ---------------
 
 with bcd2_hex select
-		HEX2 <= "0000001" when "0000", --numero 0 
-				  "1001111" when "0001", --numero 1
-				  "0010010" when "0010", --numero 2
-				  "0000110" when "0011", --numero 3
-				  "1001100" when "0100", --numero 4
-				  "0100100" when "0101", --numero 5
-				  "0100000" when "0110", --numero 6
-				  "0001111" when "0111", --numero 7
+		HEX2 <= "1000000" when "0000", --numero 0 
+				  "1111001" when "0001", --numero 1
+				  "0100100" when "0010", --numero 2
+				  "0110000" when "0011", --numero 3
+				  "0011001" when "0100", --numero 4
+				  "0010010" when "0101", --numero 5
+				  "0000010" when "0110", --numero 6
+				  "1111000" when "0111", --numero 7
 				  "1111111" when "1000", --numero 8
-				  "0000100" when others;
+				  "0010000" when others;
 
 with bcd1_hex select
-		HEX1 <= "0000001" when "0000", --numero 0 
-				  "1001111" when "0001", --numero 1
-				  "0010010" when "0010", --numero 2
-				  "0000110" when "0011", --numero 3
-				  "1001100" when "0100", --numero 4
-				  "0100100" when "0101", --numero 5
-				  "0100000" when "0110", --numero 6
-				  "0001111" when "0111", --numero 7
+		HEX1 <= "1000000" when "0000", --numero 0 
+				  "1111001" when "0001", --numero 1
+				  "0100100" when "0010", --numero 2
+				  "0110000" when "0011", --numero 3
+				  "0011001" when "0100", --numero 4
+				  "0010010" when "0101", --numero 5
+				  "0000010" when "0110", --numero 6
+				  "1111000" when "0111", --numero 7
 				  "1111111" when "1000", --numero 8
-				  "0000100" when others;
+				  "0010000" when others;
 
 
 with bcd0_hex select
-		HEX0 <= "0000001" when "0000", --numero 0 
-				  "1001111" when "0001", --numero 1
-				  "0010010" when "0010", --numero 2
-				  "0000110" when "0011", --numero 3
-				  "1001100" when "0100", --numero 4
-				  "0100100" when "0101", --numero 5
-				  "0100000" when "0110", --numero 6
-				  "0001111" when "0111", --numero 7
+		HEX0 <= "1000000" when "0000", --numero 0 
+				  "1111001" when "0001", --numero 1
+				  "0100100" when "0010", --numero 2
+				  "0110000" when "0011", --numero 3
+				  "0011001" when "0100", --numero 4
+				  "0010010" when "0101", --numero 5
+				  "0000010" when "0110", --numero 6
+				  "1111000" when "0111", --numero 7
 				  "1111111" when "1000", --numero 8
-				  "0000100" when others;
+				  "0010000" when others;
 
 end rtl;
