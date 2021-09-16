@@ -19,6 +19,12 @@ architecture rtl of comparador16 is
   -- utilizados nesse modulo.
 
 begin
-  -- Implementação vem aqui!
+	with a select
+	zr <= '1' when "0000000000000000",
+			'0' when others;
+			
+	with a(15) select
+		ng <= '1' when '1',
+				'0' when others;
 
 end architecture;
