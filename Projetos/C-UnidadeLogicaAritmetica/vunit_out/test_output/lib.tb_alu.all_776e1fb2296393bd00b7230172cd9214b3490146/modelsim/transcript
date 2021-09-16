@@ -25,3 +25,5 @@
 # vunit_restart
 #   - Recompiles the source files
 #   - and re-runs the simulation if the compile was successful
+# End time: 16:53:48 on Sep 16,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 4
