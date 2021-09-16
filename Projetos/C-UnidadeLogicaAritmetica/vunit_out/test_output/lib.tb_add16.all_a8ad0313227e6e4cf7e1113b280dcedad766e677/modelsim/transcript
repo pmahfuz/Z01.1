@@ -19,3 +19,6 @@
 # vunit_restart
 #   - Recompiles the source files
 #   - and re-runs the simulation if the compile was successful
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 20:38:23 on Sep 16,2021, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 1
