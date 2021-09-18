@@ -37,5 +37,34 @@ architecture arch of BinaryDigit is
 	signal dffout,muxout: std_logic;
 
 begin
+	Mux0 : Mux2Way
+	port map
+	(
+		b => input,
+		a => dffout,
+		-- essa parte do código me deixou meio confuso, mas o prof 
+		-- explicou. A entrada b do mux é ativada quando a chave sel = 1
+		-- no flip-flop, queremos ativar a memória (fazer o load)
+		-- ativando o load. Se não ficar claro, fale comigo
+		sel => load,
+		q => muxout
+	);
+	
+	FF0 : FlipFlopD
+	port map
+	(
+		clock => clock,
+		d => muxout,
+		-- não queremos fixar o flip-flop nem
+		-- em 0 nem em 1, então tem que ser '0'
+		clear => '0',
+		preset => '0',
+		q => dffout
+	);
+	-- sim, dffout liga a saída do flip-flop
+	-- tanto à entrada a do mux quanto ao output
 
+	-- tem que ser fora pq port map só liga uma coisa
+	-- a outra
+	output <= dffout;
 end architecture;

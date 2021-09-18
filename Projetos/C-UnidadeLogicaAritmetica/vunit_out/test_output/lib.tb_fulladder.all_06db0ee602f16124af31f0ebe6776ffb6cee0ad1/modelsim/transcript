@@ -1,9 +1,19 @@
 # Reading pref.tcl
 # source "/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_fulladder.all_06db0ee602f16124af31f0ebe6776ffb6cee0ad1/modelsim/gui.do"
 # vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_fulladder.all_06db0ee602f16124af31f0ebe6776ffb6cee0ad1/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_fulladder(tb) -L vunit_lib -L lib -g/tb_fulladder/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_fulladder.all_06db0ee602f16124af31f0ebe6776ffb6cee0ad1/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : false" 
+<<<<<<< HEAD
+# Start time: 16:46:05 on Sep 16,2021
+# ** Warning: Design size of 21442 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_fulladder/mapping/soma has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_fulladder/mapping/vaium has no driver.
+# This port will contribute value (U) to the signal network.
+=======
 # Start time: 15:04:48 on Sep 16,2021
 # ** Warning: Design size of 21442 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
+>>>>>>> main
 # List of VUnit commands:
 # vunit_help
 #   - Prints this help
@@ -19,6 +29,10 @@
 # vunit_restart
 #   - Recompiles the source files
 #   - and re-runs the simulation if the compile was successful
+<<<<<<< HEAD
+# End time: 16:53:57 on Sep 16,2021, Elapsed time: 0:07:52
+# Errors: 0, Warnings: 3
+=======
 add wave -position end  sim:/tb_fulladder/inA
 add wave -position end  sim:/tb_fulladder/inB
 # Error opening /home/borg/Documents/ELEMENTOS/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/tb_FullAdder.vhd
@@ -42,3 +56,4 @@ vunit_run
 # false
 # End time: 15:07:33 on Sep 16,2021, Elapsed time: 0:02:45
 # Errors: 0, Warnings: 1
+>>>>>>> main

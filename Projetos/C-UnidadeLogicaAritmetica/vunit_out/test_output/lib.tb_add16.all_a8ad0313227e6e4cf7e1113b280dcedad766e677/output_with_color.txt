@@ -1,2 +1,8 @@
+<<<<<<< HEAD
+** Fatal: vsimk is exiting with code 4.
+Exit codes are defined in the "Error and Warning Messages"
+appendix of the ModelSim User's Manual.
+=======
 [33;1mskip[0m[m (P=2 S=1 F=5 T=8) lib.tb_add16.all (323.8 seconds)
 [0m
+>>>>>>> main

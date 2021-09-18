@@ -1,9 +1,21 @@
 # Reading pref.tcl
 # source "/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_alu.all_776e1fb2296393bd00b7230172cd9214b3490146/modelsim/gui.do"
 # vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_alu.all_776e1fb2296393bd00b7230172cd9214b3490146/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_alu(tb) -L vunit_lib -L lib -g/tb_alu/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_alu.all_776e1fb2296393bd00b7230172cd9214b3490146/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : false" 
+<<<<<<< HEAD
+# Start time: 16:51:07 on Sep 16,2021
+# ** Warning: Design size of 21727 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/mapping/zr has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/mapping/ng has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu/mapping/saida(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+=======
 # Start time: 15:05:16 on Sep 16,2021
 # ** Warning: Design size of 22375 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
+>>>>>>> main
 # List of VUnit commands:
 # vunit_help
 #   - Prints this help
@@ -19,6 +31,10 @@
 # vunit_restart
 #   - Recompiles the source files
 #   - and re-runs the simulation if the compile was successful
+<<<<<<< HEAD
+# End time: 16:53:48 on Sep 16,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 4
+=======
 # Error opening /home/borg/Documents/ELEMENTOS/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/tb_ALU.vhd
 # Path name '/home/borg/Documents/ELEMENTOS/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/tb_ALU.vhd' doesn't exist.
 add wave -position end  sim:/tb_alu/inX
@@ -37,3 +53,4 @@ vunit_run
 # false
 # End time: 15:06:24 on Sep 16,2021, Elapsed time: 0:01:08
 # Errors: 0, Warnings: 1
+>>>>>>> main
