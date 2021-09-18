@@ -1,7 +1,11 @@
 # Reading pref.tcl
 # source "/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_zerador16.all_45f7988ffd33f2e3938d5b4b7eee25de1517305e/modelsim/gui.do"
 # vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_zerador16.all_45f7988ffd33f2e3938d5b4b7eee25de1517305e/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_zerador16(tb) -L vunit_lib -L lib -g/tb_zerador16/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/vunit_out/test_output/lib.tb_zerador16.all_45f7988ffd33f2e3938d5b4b7eee25de1517305e/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/testes/,use_color : false" 
+<<<<<<< HEAD
 # Start time: 16:46:31 on Sep 16,2021
+=======
+# Start time: 15:05:09 on Sep 16,2021
+>>>>>>> main
 # ** Warning: Design size of 21382 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # List of VUnit commands:
@@ -19,6 +23,7 @@
 # vunit_restart
 #   - Recompiles the source files
 #   - and re-runs the simulation if the compile was successful
+<<<<<<< HEAD
 add wave -position end  sim:/tb_zerador16/runner_cfg
 add wave -position end  sim:/tb_zerador16/a
 add wave -position end  sim:/tb_zerador16/y
@@ -31,4 +36,7 @@ vunit_run
 # false
 # ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
 # End time: 16:51:31 on Sep 16,2021, Elapsed time: 0:05:00
+=======
+# End time: 15:05:12 on Sep 16,2021, Elapsed time: 0:00:03
+>>>>>>> main
 # Errors: 0, Warnings: 1
