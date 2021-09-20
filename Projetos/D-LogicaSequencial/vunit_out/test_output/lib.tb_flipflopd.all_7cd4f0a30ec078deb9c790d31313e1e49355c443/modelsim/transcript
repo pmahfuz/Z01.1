@@ -1,0 +1,23 @@
+# Reading pref.tcl
+# source "/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/test_output/lib.tb_flipflopd.all_7cd4f0a30ec078deb9c790d31313e1e49355c443/modelsim/gui.do"
+# vsim -modelsimini /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini -wlf /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/test_output/lib.tb_flipflopd.all_7cd4f0a30ec078deb9c790d31313e1e49355c443/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_flipflopd(tb) -L vunit_lib -L lib -g/tb_flipflopd/runner_cfg="active python runner : true,enabled_test_cases : ,output path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/test_output/lib.tb_flipflopd.all_7cd4f0a30ec078deb9c790d31313e1e49355c443/,tb path : /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/,use_color : false" 
+# Start time: 18:14:40 on Sep 18,2021
+# ** Warning: Design size of 21438 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# List of VUnit commands:
+# vunit_help
+#   - Prints this help
+# vunit_load [vsim_extra_args]
+#   - Load design with correct generics for the test
+#   - Optional first argument are passed as extra flags to vsim
+# vunit_user_init
+#   - Re-runs the user defined init file
+# vunit_run
+#   - Run test, must do vunit_load first
+# vunit_compile
+#   - Recompiles the source files
+# vunit_restart
+#   - Recompiles the source files
+#   - and re-runs the simulation if the compile was successful
+# End time: 18:15:02 on Sep 18,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
