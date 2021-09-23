@@ -8,1882 +8,1893 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial
+d/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial
 Eadd16
-Z1 w1632150450
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 82
-Z4 d/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial
-Z5 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd
-Z6 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd
+Z0 w1632355366
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 146
+Z3 d/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial
+Z4 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd
+Z5 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd
 l0
-Z7 L11 1
+Z6 L11 1
 V^@FJVKXm8?U0L69OkeYXZ1
 !s100 SiSIIDRe2L<Y`4Mn=<Q<i1
-Z8 OV;C;2020.1;71
+Z7 OV;C;2020.1;71
 33
-Z9 !s110 1632247515
+Z8 !s110 1632356285
 !i10b 1
-Z10 !s108 1632247515.000000
-Z11 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd|
-Z12 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd|
+Z9 !s108 1632356285.000000
+Z10 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd|
+Z11 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Add16.vhd|
 !i113 1
-Z13 o-quiet -2008 -work lib
-Z14 tExplicit 1 CvgOpt 0
+Z12 o-quiet -2008 -work lib
+Z13 tExplicit 1 CvgOpt 0
 Artl
+R1
 R2
-R3
 DEx4 work 5 add16 0 22 ^@FJVKXm8?U0L69OkeYXZ1
-!i122 82
+!i122 146
 l31
 L19 158
 VIXGR:QTb2UP2NbLc;bAkX1
 !s100 _nD84FaJbE1V]>9zmS8fB1
-R8
+R7
 33
-R9
+R8
 !i10b 1
+R9
 R10
 R11
-R12
 !i113 1
+R12
 R13
-R14
 Ealu
-Z15 w1632152078
+R0
+R1
 R2
+!i122 147
 R3
-!i122 83
-R4
-Z16 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd
-Z17 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd
+Z14 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd
+Z15 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd
 l0
 L29 1
 VMT^L8DV<ch`z60KDB@OUg0
 !s100 ;H:E>8hji@:aE]F93AJU@0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z18 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd|
-Z19 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd|
+R9
+Z16 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd|
+Z17 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/ALU.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 3 alu 0 22 MT^L8DV<ch`z60KDB@OUg0
-!i122 83
+!i122 147
 l98
 L44 74
 VVeCoBziV`>JXe]I;X3nJQ3
 !s100 X]iNIik`Nho_WG>Q`D<h_2
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R18
-R19
+R9
+R16
+R17
 !i113 1
+R12
 R13
-R14
 Eand16
-Z20 w1631729807
+R0
+R1
 R2
+!i122 171
 R3
-!i122 107
-R4
-Z21 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd
-Z22 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd
+Z18 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd
+Z19 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd
 l0
 L4 1
 Vh]ej`Ck73hG:Zd8Jo=jjc1
 !s100 4g2NdCHBc<J3K7jR5WC:B0
-R8
+R7
 33
-Z23 !s110 1632247517
+Z20 !s110 1632356286
 !i10b 1
-Z24 !s108 1632247517.000000
-Z25 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd|
-Z26 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd|
+Z21 !s108 1632356286.000000
+Z22 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd|
+!s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
-DEx4 work 5 and16 0 22 h]ej`Ck73hG:Zd8Jo=jjc1
-!i122 107
+Z23 DEx4 work 5 and16 0 22 h]ej`Ck73hG:Zd8Jo=jjc1
+!i122 171
 l12
-L11 5
-Vnm:Im9W3Z9_;=:0JhnK2b1
-!s100 c4I4oUC<Qi7fM4]VX6Dfd0
-R8
+Z24 L11 5
+Z25 Vnm:Im9W3Z9_;=:0JhnK2b1
+Z26 !s100 c4I4oUC<Qi7fM4]VX6Dfd0
+R7
 33
-R23
-!i10b 1
-R24
-R25
-R26
-!i113 1
-R13
-R14
-Ebarrelshifter16
 R20
+!i10b 1
+R21
+R22
+Z27 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/And16.vhd|
+!i113 1
+R12
+R13
+Ebarrelshifter16
+R0
+R1
 R2
+!i122 170
 R3
-!i122 106
-R4
-Z27 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd
-Z28 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd
+Z28 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd
+Z29 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd
 l0
 L4 1
 V5[h]I7=h]?dc4<<Vlg5T<0
 !s100 W]^JZCg1HIZ[U7cW:3Q^60
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R24
-Z29 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd|
-Z30 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd|
+R21
+Z30 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd|
+Z31 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/BarrelShifter16.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 15 barrelshifter16 0 22 5[h]I7=h]?dc4<<Vlg5T<0
-!i122 106
+!i122 170
 l13
 L12 5
 Va>;?1Cl@Y9Q@oZE12^_530
 !s100 n[lk8QaMdBBQX3kVWmVDh1
-R8
+R7
 33
-R23
-!i10b 1
-R24
-R29
-R30
-!i113 1
-R13
-R14
-Ebinariotobcd
 R20
-Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+!i10b 1
+R21
+R30
+R31
+!i113 1
+R12
+R13
+Ebinariotobcd
+R0
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
 R2
+!i122 152
 R3
-!i122 88
-R4
-Z33 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd
-Z34 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd
+Z34 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd
+Z35 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd
 l0
 L8 1
 VI19a<iFWbfZ0SWGf=`F:20
 !s100 :4FYRUlC<2Fb@bHhj3LM<0
-R8
+R7
 33
-Z35 !s110 1632247516
+R8
 !i10b 1
-Z36 !s108 1632247516.000000
-Z37 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd|
-Z38 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd|
+R9
+Z36 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd|
+Z37 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/binarioToBcd.vhd|
 !i113 1
+R12
 R13
-R14
 Abehaviour
-R31
 R32
+R33
+R1
 R2
-R3
 DEx4 work 12 binariotobcd 0 22 I19a<iFWbfZ0SWGf=`F:20
-!i122 88
+!i122 152
 l27
 L17 77
 VA<n<EJ<8U4RkKCGaz5CDV3
 !s100 oi0D7`:`AM=OP43658iCn2
-R8
+R7
 33
-R35
+R8
 !i10b 1
+R9
 R36
 R37
-R38
 !i113 1
+R12
 R13
-R14
 Ebinarydigit
-R15
+R0
+R1
 R2
+!i122 138
 R3
-!i122 74
-R4
-Z39 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd
-Z40 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd
+Z38 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd
+Z39 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd
 l0
 L8 1
 V9GGNKWiY70Q@UYNU886Q]0
 !s100 fFP230Rg1V>^^WU1G9Xa[2
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z41 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd|
-Z42 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd|
+R9
+Z40 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd|
+Z41 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/BinaryDigit.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 11 binarydigit 0 22 9GGNKWiY70Q@UYNU886Q]0
-!i122 74
+!i122 138
 l39
 L17 54
 V@JTXgMmgNi@mUP;3lKFHV2
 !s100 1Y1V9`^;]M];jo`R7hzhM1
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
+R9
+R40
 R41
-R42
 !i113 1
+R12
 R13
-R14
 Ecircuito
-Z43 w1631729917
+R0
+R1
 R2
+!i122 151
 R3
-!i122 87
-R4
-Z44 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd
-Z45 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd
+Z42 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd
+Z43 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd
 l0
 L4 1
 VQBQIj`R>78621b^V>3oQg1
 !s100 o]3AXHENE2[1YZDZ9QMnG1
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R10
-Z46 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd|
-Z47 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd|
+R9
+Z44 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd|
+Z45 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/circuito.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 8 circuito 0 22 QBQIj`R>78621b^V>3oQg1
-!i122 87
+!i122 151
 l12
 L10 7
 VBbOfHkB[QT5:]8WAL2@5[2
 !s100 WmQGeAJCQ1B?naLahcYlL0
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R10
-R46
-R47
+R9
+R44
+R45
 !i113 1
+R12
 R13
-R14
 Ecomparador16
-R15
+R0
+R1
 R2
+!i122 141
 R3
-!i122 77
-R4
-Z48 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd
-Z49 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd
+Z46 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd
+Z47 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd
 l0
 L8 1
 VbbjmeK1BQ4Kb7jBbI77Rg2
 !s100 6Q613_:GLMIK913:C5DoD3
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z50 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd|
-Z51 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd|
+R9
+Z48 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd|
+Z49 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/comparador16.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 12 comparador16 0 22 bbjmeK1BQ4Kb7jBbI77Rg2
-!i122 77
+!i122 141
 l21
 L16 15
 Vk4^KWd80hBYC2m`z_9SaG2
 !s100 >oN:XE151WAJ[C>:NioFS2
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R50
-R51
+R9
+R48
+R49
 !i113 1
+R12
 R13
-R14
 Econceitoa
-R43
-Z52 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R0
+Z50 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
 R2
+!i122 169
 R3
-!i122 105
-R4
-Z53 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd
-Z54 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd
+Z51 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd
+Z52 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd
 l0
-Z55 L12 1
+Z53 L12 1
 V]Y8nRGSE6NAcRGHPk=9KG0
 !s100 AE5M:R58SBSKJe6hz`Xi;2
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R24
-Z56 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd|
-Z57 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd|
+R21
+Z54 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd|
+Z55 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoA.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
-R52
+R50
+R1
 R2
-R3
 DEx4 work 9 conceitoa 0 22 ]Y8nRGSE6NAcRGHPk=9KG0
-!i122 105
+!i122 169
 l44
 L26 70
 VNzeEaWdBoao7Kfm@iZ_?51
 !s100 aoOEBZ]nWh?:oOnG?Y8fg2
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R24
-R56
-R57
-!i113 1
-R13
-R14
-Econceitob
-R43
-R52
-R2
-R3
-!i122 104
-R4
-Z58 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd
-Z59 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd
-l0
+R21
+R54
 R55
+!i113 1
+R12
+R13
+Econceitob
+R0
+R50
+R1
+R2
+!i122 168
+R3
+Z56 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd
+Z57 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd
+l0
+R53
 V^h95b=RhBfI9bA3D<zOZA2
 !s100 56mgXIgbUd1W<liPKA<h=3
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R24
-Z60 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd|
-Z61 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd|
+R21
+Z58 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd|
+Z59 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/ConceitoB.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
-R52
+R50
+R1
 R2
-R3
 DEx4 work 9 conceitob 0 22 ^h95b=RhBfI9bA3D<zOZA2
-!i122 104
+!i122 168
 l35
 L26 56
 VHS`1X8J`@PdG?=IlHIS[12
 !s100 0zYdNT=hkO6DF_<hlR2Go2
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R24
-R60
-R61
+R21
+R58
+R59
 !i113 1
+R12
 R13
-R14
 Ecounterdown
-R15
+R0
+R1
 R2
+!i122 126
 R3
-!i122 59
-R4
-Z62 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd
-Z63 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd
+Z60 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd
+Z61 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd
 l0
 L7 1
 VT^dVPIaBo[k8Ee;^=O>X_0
 !s100 _8<`0C=R7;jA<QoiQjAa90
-R8
+R7
 33
-Z64 !s110 1632246627
+Z62 !s110 1632356284
 !i10b 1
-Z65 !s108 1632246627.000000
-Z66 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd|
-Z67 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd|
+Z63 !s108 1632356284.000000
+Z64 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd|
+Z65 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/CounterDown.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 11 counterdown 0 22 T^dVPIaBo[k8Ee;^=O>X_0
-!i122 59
+!i122 126
 l16
 L14 5
 V02^bbbbS=2SGDiYYB^N:e3
 !s100 @SFL?;NULn5ESS@mHg@?P1
-R8
+R7
 33
-R64
+R62
 !i10b 1
+R63
+R64
 R65
-R66
-R67
 !i113 1
+R12
 R13
-R14
 Edetectordemoedas
-R43
+R0
+R1
 R2
+!i122 150
 R3
-!i122 86
-R4
-Z68 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd
-Z69 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd
+Z66 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd
+Z67 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd
 l0
 L4 1
 VSd0AX;8RlG:F_LO9J_6j^3
 !s100 eBG_FEDA1m8g9Gonl?[8k0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z70 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd|
-Z71 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd|
+R9
+Z68 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd|
+Z69 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/detectorDeMoedas.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 16 detectordemoedas 0 22 Sd0AX;8RlG:F_LO9J_6j^3
-!i122 86
+!i122 150
 l12
 L10 9
 VLDK5S7a25J8h4kl?70]mk0
 !s100 :KgbFkA1<H4gi_j?RB?kC0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R70
-R71
+R9
+R68
+R69
 !i113 1
+R12
 R13
-R14
 Edmux2way
-R43
+R0
+R1
 R2
+!i122 167
 R3
-!i122 103
-R4
-Z72 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd
-Z73 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd
+Z70 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd
+Z71 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd
 l0
 L4 1
 V>:IF]Koi99f<cJ0CmCAM51
 !s100 Mk4MPhHXoJhVbDN8OhUzJ0
-R8
+R7
 33
-R23
+R20
 !i10b 1
-R36
-Z74 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd|
-Z75 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd|
+R21
+Z72 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd|
+Z73 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux2Way.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 8 dmux2way 0 22 >:IF]Koi99f<cJ0CmCAM51
-!i122 103
+!i122 167
 l13
 L12 9
 VI7G@TZ0_X]aKQ5NL6GAD_0
 !s100 LD<0eWNhe?b8?Uhi;@bFB2
-R8
+R7
 33
-R23
-!i10b 1
-R36
-R74
-R75
-!i113 1
-R13
-R14
-Edmux4way
 R20
+!i10b 1
+R21
+R72
+R73
+!i113 1
+R12
+R13
+Edmux4way
+R0
+R1
 R2
+!i122 166
 R3
-!i122 102
-R4
-Z76 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd
-Z77 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd
+Z74 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd
+Z75 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd
 l0
 L4 1
 VchCWhU[f@SDYOfM[z`KAD3
 !s100 ;Fe6?`C@SB@=WbZbaI^E^0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z78 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd|
-Z79 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd|
+R21
+Z76 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd|
+Z77 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux4Way.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 8 dmux4way 0 22 chCWhU[f@SDYOfM[z`KAD3
-!i122 102
+!i122 166
 l15
-Z80 L14 8
+Z78 L14 8
 VH7kBJf;Y_coj<a@Z``BQi1
 !s100 8Im`lHij<>S9EP0DfoAXZ3
-R8
+R7
 33
-R35
-!i10b 1
-R36
-R78
-R79
-!i113 1
-R13
-R14
-Edmux8way
 R20
+!i10b 1
+R21
+R76
+R77
+!i113 1
+R12
+R13
+Edmux8way
+R0
+R1
 R2
+!i122 165
 R3
-!i122 101
-R4
-Z81 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd
-Z82 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd
+Z79 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd
+Z80 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd
 l0
 L4 1
 V4@:^4]]>d5jd<9PRAJQi32
 !s100 zC5^AWzR72_D_1oKAO8`>2
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z83 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd|
-Z84 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd|
+R21
+Z81 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd|
+Z82 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/DMux8Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 8 dmux8way 0 22 4@:^4]]>d5jd<9PRAJQi32
-!i122 101
+!i122 165
 l19
-Z85 L18 12
+Z83 L18 12
 VKNh`P[cF4kB:T<ElhH0:D0
 !s100 h?L5;Mg4kZ`o8@`o;adBA0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R83
-R84
+R21
+R81
+R82
 !i113 1
+R12
 R13
-R14
 Eflipflopd
-R15
+R0
+R1
 R2
+!i122 137
 R3
-!i122 73
-R4
-Z86 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd
-Z87 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd
+Z84 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd
+Z85 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd
 l0
 L8 1
 Vb>0d0SFJ7I_bZn7^0fNI20
 !s100 dO0M_NbMc7lj3o=60[LCQ0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z88 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd|
-Z89 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd|
+R63
+Z86 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd|
+Z87 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/FlipFlopD.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 9 flipflopd 0 22 b>0d0SFJ7I_bZn7^0fNI20
-!i122 73
+!i122 137
 l20
 L18 15
 V<XkFNOk]KDI31`>F7mRA^0
 !s100 5Hh^1_NeB@ZXM47<X?7ni0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R88
-R89
+R63
+R86
+R87
 !i113 1
+R12
 R13
-R14
 Eflipflopjk
-R15
+R0
+R1
 R2
+!i122 125
 R3
-!i122 58
-R4
-Z90 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd
-Z91 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd
+Z88 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd
+Z89 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd
 l0
 L7 1
 VATD6G@DdVN]g0cVP0=KJ;3
 !s100 V3HK<EU]?VL1Yo?Le0:dM3
-R8
+R7
 33
-R64
+R62
 !i10b 1
-R65
-Z92 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd|
-Z93 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd|
+R63
+Z90 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd|
+Z91 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopJK.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 10 flipflopjk 0 22 ATD6G@DdVN]g0cVP0=KJ;3
-!i122 58
+!i122 125
 l19
 L17 5
 VTKhR<h<kE6kV`Z;:JUPhe3
 !s100 oM>3df^WgY`HI3lZRjKod2
-R8
+R7
 33
-R64
+R62
 !i10b 1
-R65
-R92
-R93
+R63
+R90
+R91
 !i113 1
+R12
 R13
-R14
 Eflipflopt
-R15
+R0
+R1
 R2
+!i122 124
 R3
-!i122 57
-R4
-Z94 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd
-Z95 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd
+Z92 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd
+Z93 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd
 l0
 L7 1
 V`AO^=_N27FFNd[eG_VQ463
 !s100 B;=;MIR8d83KKWnMTIYh02
-R8
+R7
 33
-R64
+R62
 !i10b 1
-R65
-Z96 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd|
-Z97 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd|
+R63
+Z94 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd|
+Z95 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/conceitoA/FlipFlopT.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 9 flipflopt 0 22 `AO^=_N27FFNd[eG_VQ463
-!i122 57
+!i122 124
 l18
 L16 5
 V>MWg^oTX86;465BB87Nie2
 !s100 b6d><9mh4Oa[haG@4D=T`3
-R8
+R7
 33
-R64
+R62
 !i10b 1
-R65
-R96
-R97
+R63
+R94
+R95
 !i113 1
+R12
 R13
-R14
 Efulladder
-R43
+R0
+R1
 R2
+!i122 145
 R3
-!i122 81
-R4
-Z98 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd
-Z99 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd
+Z96 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd
+Z97 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd
 l0
-Z100 L10 1
+Z98 L10 1
 V;RB>US:oiVgf@@2;ERnEW2
 !s100 ^oFEXWUb;T^9LUJXBGnJH2
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z101 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd|
-Z102 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd|
+R9
+Z99 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd|
+Z100 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/FullAdder.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 9 fulladder 0 22 ;RB>US:oiVgf@@2;ERnEW2
-!i122 81
+!i122 145
 l22
 L17 11
 VXAIA888WddePlScfomJLk3
 !s100 5`nNn;?Sj:m8nU[n2ZCUV0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R101
-R102
-!i113 1
-R13
-R14
-Ehalfadder
-R43
-R2
-R3
-!i122 80
-R4
-Z103 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd
-Z104 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd
-l0
+R9
+R99
 R100
+!i113 1
+R12
+R13
+Ehalfadder
+R0
+R1
+R2
+!i122 144
+R3
+Z101 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd
+Z102 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd
+l0
+R98
 VL0]G_0fS9^WC^L]C@X[Y^0
 !s100 h@?RhTGZ[QMJjM?>AnoBQ0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z105 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd|
-Z106 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd|
+R9
+Z103 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd|
+Z104 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/HalfAdder.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 9 halfadder 0 22 L0]G_0fS9^WC^L]C@X[Y^0
-!i122 80
+!i122 144
 l22
 L17 10
 V6MG@i_[?57XcT6WPPBnUG3
 !s100 ZAghOObLDC_mUGH_:cHh;3
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R105
-R106
+R9
+R103
+R104
 !i113 1
+R12
 R13
-R14
 Eimpressora
-R43
+R0
+R1
 R2
+!i122 149
 R3
-!i122 85
-R4
-Z107 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd
-Z108 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd
+Z105 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd
+Z106 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd
 l0
 L4 1
 V2Vf]_[jCT:XbB[Tz[fgb@2
 !s100 3VLb^^iLS^2QPXha=FQ=@1
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z109 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd|
-Z110 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd|
+R9
+Z107 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd|
+Z108 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/impressora.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 10 impressora 0 22 2Vf]_[jCT:XbB[Tz[fgb@2
-!i122 85
+!i122 149
 l12
 L10 6
 V_EdHhz`mobmFcDD;=]o@T3
 !s100 h]7cRbbNzHFPS[]N9:Y8X3
-R8
-33
-R9
-!i10b 1
-R10
-R109
-R110
-!i113 1
-R13
-R14
-Einc16
-R15
-R2
-R3
-!i122 79
-R4
-Z111 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd
-Z112 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd
-l0
 R7
+33
+R8
+!i10b 1
+R9
+R107
+R108
+!i113 1
+R12
+R13
+Einc16
+R0
+R1
+R2
+!i122 143
+R3
+Z109 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd
+Z110 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd
+l0
+R6
 V;OmAHIS@A^0AT]ojlejag2
 !s100 zf5`@f[Vj[mSi<_bFTEQi3
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z113 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd|
-Z114 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd|
+R9
+Z111 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd|
+Z112 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/Inc16.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 5 inc16 0 22 ;OmAHIS@A^0AT]ojlejag2
-!i122 79
+!i122 143
 l31
 L18 21
 VY9d`ch679Q;?dng8AI<kQ2
 !s100 QP29S640Rl`XY4ZG]KbOd1
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R113
-R114
+R9
+R111
+R112
 !i113 1
+R12
 R13
-R14
 Einversor16
+R0
 R1
 R2
+!i122 140
 R3
-!i122 76
-R4
-Z115 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd
-Z116 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd
+Z113 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd
+Z114 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd
 l0
 L14 1
 VBKIgSQ6iEYZ7HP5bSfien1
 !s100 b_ShSBA^Vm>MTY@2:ETb=3
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z117 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd|
-Z118 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd|
+R9
+Z115 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd|
+Z116 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/inversor16.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 10 inversor16 0 22 BKIgSQ6iEYZ7HP5bSfien1
-!i122 76
+!i122 140
 l27
 L22 10
 V21gl430YdDL6UdN<o3gDO3
 !s100 NUZLcCz?hboZ2`U^g5AGW0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R117
-R118
+R9
+R115
+R116
 !i113 1
+R12
 R13
-R14
 Emux16
-R20
+R0
+R1
 R2
+!i122 164
 R3
-!i122 100
-R4
-Z119 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd
-Z120 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd
+Z117 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd
+Z118 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd
 l0
 L4 1
 V^KK7>>=?KzfHlc;dK>^H53
 !s100 IzGKQCSkQ7RCdJh>^j0Q61
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z121 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd|
-Z122 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd|
+R21
+Z119 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd|
+Z120 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 5 mux16 0 22 ^KK7>>=?KzfHlc;dK>^H53
-!i122 100
+!i122 164
 l13
-Z123 L12 6
+Z121 L12 6
 VR_Y7b]aFn]JAk]KbPFMAF3
 !s100 n9L<D9hH6KXfb;==EQL@h1
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R121
-R122
+R21
+R119
+R120
 !i113 1
+R12
 R13
-R14
 Emux2way
-R43
+R0
+R1
 R2
+!i122 163
 R3
-!i122 99
-R4
-Z124 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd
-Z125 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd
+Z122 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd
+Z123 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd
 l0
 L4 1
 V5Md04iB]KYYIl:m:EPnQ[3
 !s100 L]VTV_?L9fN8g2_`K9nZQ2
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z126 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd|
-Z127 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd|
+R21
+Z124 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd|
+Z125 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux2Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 7 mux2way 0 22 5Md04iB]KYYIl:m:EPnQ[3
-!i122 99
+!i122 163
 l13
-R123
+R121
 VmVWkZJD<[C?zm4QPQTR7h2
 !s100 K3S4e1dIUilD6DEYFnfVo0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R126
-R127
+R21
+R124
+R125
 !i113 1
+R12
 R13
-R14
 Emux4way
-R43
+R0
+R1
 R2
+!i122 162
 R3
-!i122 98
-R4
-Z128 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd
-Z129 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd
+Z126 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd
+Z127 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd
 l0
 L4 1
 VS6DJa:23Uele:d0oQjjO[0
 !s100 X`n8^nYIhlnNgIfP_EkID1
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z130 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd|
-Z131 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd|
+R21
+Z128 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd|
+Z129 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 7 mux4way 0 22 S6DJa:23Uele:d0oQjjO[0
-!i122 98
+!i122 162
 l15
-R80
+R78
 VkUmmbm71:;o@BXjTR1]:U2
 !s100 o8XG9[89:4I26_e:M<;@Z0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R130
-R131
+R21
+R128
+R129
 !i113 1
+R12
 R13
-R14
 Emux4way16
-R43
+R0
+R1
 R2
+!i122 161
 R3
-!i122 97
-R4
-Z132 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd
-Z133 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd
+Z130 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd
+Z131 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd
 l0
 L4 1
 V:dAZ1HalTziDC1?Ie_<P`2
 !s100 l<keW[e_ALUoBj``5Mc=33
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z134 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd|
-Z135 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd|
+R21
+Z132 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd|
+Z133 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux4Way16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 9 mux4way16 0 22 :dAZ1HalTziDC1?Ie_<P`2
-!i122 97
+!i122 161
 l15
 L14 9
 V2<4E?S1jG2GoULlNDW]Y50
 !s100 hcRLO3>lQcXmRVFb>Iz=n0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R134
-R135
+R21
+R132
+R133
 !i113 1
+R12
 R13
-R14
 Emux8way
-R43
+R0
+R1
 R2
+!i122 160
 R3
-!i122 96
-R4
-Z136 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd
-Z137 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd
+Z134 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd
+Z135 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd
 l0
 L4 1
 VcMIZim^j_>0TGlG7NC03C3
 !s100 ^ag5`^MlkFaAfCaX]@3>L0
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-Z138 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd|
-Z139 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd|
+R21
+Z136 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd|
+Z137 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 7 mux8way 0 22 cMIZim^j_>0TGlG7NC03C3
-!i122 96
+!i122 160
 l19
-R85
+R83
 V6ol=0k1Kl]W^hj8fmB2^T1
 !s100 IaPc6I=:?;[9^QYQYil5C2
-R8
+R7
 33
-R35
+R20
 !i10b 1
-R36
-R138
-R139
+R21
+R136
+R137
 !i113 1
+R12
 R13
-R14
 Emux8way16
-R43
+R0
+R1
 R2
+!i122 159
 R3
-!i122 95
-R4
-Z140 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd
-Z141 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd
+Z138 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd
+Z139 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd
 l0
 L4 1
 V7MWl=:zn]>Q>M5K]`_b<60
 !s100 @m115@68;o9gzO2VgfBG]0
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z142 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd|
-Z143 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd|
+R9
+Z140 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd|
+Z141 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Mux8Way16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 9 mux8way16 0 22 7MWl=:zn]>Q>M5K]`_b<60
-!i122 95
+!i122 159
 l19
 L18 14
 V8H5]^d0NZh=:mI5EcZYnV2
 !s100 >=7_:?[f09T]HDHYL@DHW2
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R142
-R143
+R9
+R140
+R141
 !i113 1
+R12
 R13
-R14
 Enand_z01
-R20
+R0
+R1
 R2
+!i122 158
 R3
-!i122 94
-R4
-Z144 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd
-Z145 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd
+Z142 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd
+Z143 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd
 l0
 L4 1
 VMV:88zTBEe:UQ96>jlUfI0
 !s100 0d61a09AXn6n_X_jb>Bo?2
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z146 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd|
-Z147 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd|
+R9
+Z144 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd|
+Z145 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nand.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 8 nand_z01 0 22 MV:88zTBEe:UQ96>jlUfI0
-!i122 94
+!i122 158
 l13
 L12 4
 VgmedaE[cIG6HG?Zc`NOz20
 !s100 =^5mGJ3^jCjomNfP9B_k40
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R146
-R147
+R9
+R144
+R145
 !i113 1
+R12
 R13
-R14
 Enor8way
-R43
+R0
+R1
 R2
+!i122 157
 R3
-!i122 93
-R4
-Z148 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd
-Z149 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd
+Z146 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd
+Z147 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd
 l0
 L4 1
 VI6@ZGJd>JSC7UGzNAn6GU2
 !s100 bzc2JH[>FOP2l:COLj<IY2
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z150 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd|
-Z151 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd|
+R9
+Z148 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd|
+Z149 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Nor8Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 7 nor8way 0 22 I6@ZGJd>JSC7UGzNAn6GU2
-!i122 93
+!i122 157
 l18
-Z152 L17 6
+Z150 L17 6
 VBAGelAm>giXG>F;gQ89^>2
 !s100 :i`2D2R?3fFeTlTR19jaZ0
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R150
-R151
+R9
+R148
+R149
 !i113 1
+R12
 R13
-R14
 Enot16
-R20
+R0
+R1
 R2
+!i122 156
 R3
-!i122 92
-R4
-Z153 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd
-Z154 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd
+Z151 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd
+Z152 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd
 l0
 L4 1
 VC]SG@M]l`d<egUIK]zP2?0
 !s100 fYJ1`YCnUZe9F?2KLeD4V3
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z155 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd|
-Z156 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd|
+R9
+Z153 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd|
+Z154 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Not16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 5 not16 0 22 C]SG@M]l`d<egUIK]zP2?0
-!i122 92
+!i122 156
 l11
 L10 4
 Vlb[Qm8@7Ycon[Z=@V5GaQ1
 !s100 J=5N[mMlcZR5S<n;ZN6Pi1
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R155
-R156
+R9
+R153
+R154
 !i113 1
+R12
 R13
-R14
 Eor16
-R20
+R0
+R1
 R2
+!i122 155
 R3
-!i122 91
-R4
-Z157 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd
-Z158 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd
+Z155 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd
+Z156 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd
 l0
 L4 1
 VFm015BPNjKE2P[ZaFANAP1
 !s100 >QKR87GJWMdVLQz<g8^hf0
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z159 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd|
-Z160 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd|
+R9
+Z157 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd|
+Z158 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 4 or16 0 22 Fm015BPNjKE2P[ZaFANAP1
-!i122 91
+!i122 155
 l12
 L11 4
 Vki0EG<:bT@N;9l3>ZJSLD3
 !s100 m?lKj:eSNFEii:RfiISJo3
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R159
-R160
+R9
+R157
+R158
 !i113 1
+R12
 R13
-R14
 Eor8way
-R43
+R0
+R1
 R2
+!i122 154
 R3
-!i122 90
-R4
-Z161 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd
-Z162 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd
+Z159 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd
+Z160 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd
 l0
 L4 1
 V6_>9FK_U9`n7]^73i4MMa1
 !s100 Ag3dFfPkCD2FhoYEajciW3
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-Z163 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd|
-Z164 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd|
+R9
+Z161 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd|
+Z162 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/Or8Way.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 6 or8way 0 22 6_>9FK_U9`n7]^73i4MMa1
-!i122 90
+!i122 154
 l18
-R152
+R150
 V7>>:KX;`^l:KWHTb1lPH@0
 !s100 e6L_=b2OGToH9zQVh>]8k1
-R8
+R7
 33
-R35
+R8
 !i10b 1
-R36
-R163
-R164
+R9
+R161
+R162
 !i113 1
+R12
 R13
-R14
 Epc
-Z165 w1632337249
-R52
+Z163 w1632355448
+R50
+R1
 R2
+!i122 136
 R3
-!i122 121
-R0
-Z166 8/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd
-Z167 F/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd
+Z164 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd
+Z165 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd
 l0
 L16 1
 VzaQSMhREHbJK:GJ=aSh4H2
 !s100 [X=gb6SiLihcOc_HL>:i<2
-R8
+R7
 33
-Z168 !s110 1632337348
+R62
 !i10b 1
-Z169 !s108 1632337347.000000
-Z170 !s90 -quiet|-modelsimini|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd|
-Z171 !s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd|
+R63
+Z166 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd|
+Z167 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/PC.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
-R52
+R50
+R1
 R2
-R3
 DEx4 work 2 pc 0 22 zaQSMhREHbJK:GJ=aSh4H2
-!i122 121
+!i122 136
 l55
 L27 37
 VX9Q;jCMf^3bfE^>GihH3<1
 !s100 g2]em9j47Go[_hlHEgEZi1
-R8
+R7
 33
-R168
+R62
 !i10b 1
-R169
-R170
-R171
+R63
+R166
+R167
 !i113 1
+R12
 R13
-R14
 Eram4k
-R15
+R0
+R1
 R2
+!i122 135
 R3
-!i122 71
-R4
-Z172 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd
-Z173 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd
+Z168 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd
+Z169 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd
 l0
 L8 1
 Vz8dhdjLKA6AlXRDQnUY4b0
 !s100 ESk?XNEfJCWi[LAlUVY:i3
-R8
+R7
 33
-R9
+R62
 !i10b 1
-R10
-Z174 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd|
-Z175 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd|
+R63
+Z170 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd|
+Z171 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram4K.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 5 ram4k 0 22 z8dhdjLKA6AlXRDQnUY4b0
-!i122 71
+!i122 135
 l61
-Z176 L18 47
+Z172 L18 47
 VSh[@BglPK72h9gXIB`o^90
 !s100 kd?>a7=a5B6`QIlTL<6Di0
-R8
+R7
 33
-R9
+R62
 !i10b 1
-R10
-R174
-R175
+R63
+R170
+R171
 !i113 1
+R12
 R13
-R14
 Eram512
-R15
+R0
+R1
 R2
+!i122 134
 R3
-!i122 70
-R4
-Z177 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd
-Z178 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd
+Z173 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd
+Z174 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd
 l0
 L8 1
 V8[<08i[R4ikhzV`Li1VTh1
 !s100 1@Ji=O6R2bCM?3<4JVEVe1
-R8
+R7
 33
-R9
+R62
 !i10b 1
-R10
-Z179 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd|
-Z180 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd|
+R63
+Z175 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd|
+Z176 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram512.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 6 ram512 0 22 8[<08i[R4ikhzV`Li1VTh1
-!i122 70
+!i122 134
 l61
-R176
+R172
 Vhk_k7>:kZ@:VOD`<D5P5@3
 !s100 z22T`J6H?E><^NJ>Bi?df1
-R8
+R7
 33
-R9
+R62
 !i10b 1
-R10
-R179
-R180
-!i113 1
-R13
-R14
-Eram64
-R15
-R2
-R3
-!i122 69
-R4
-Z181 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd
-Z182 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd
-l0
-L8 1
-VHRL`C4[eJ50a:k2gb[ecM2
-!s100 gg_:9eMG?gXI@fHk9bKn=3
-R8
-33
-R9
-!i10b 1
-Z183 !s108 1632247514.000000
-Z184 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd|
-Z185 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd|
-!i113 1
-R13
-R14
-Aarch
-R2
-R3
-DEx4 work 5 ram64 0 22 HRL`C4[eJ50a:k2gb[ecM2
-!i122 69
-l61
+R63
+R175
 R176
-VHD`Pk83jE5m;:`WEO[JV11
-!s100 EXo[@o=MmjB[7QJ?cW27K1
-R8
-33
-R9
-!i10b 1
-R183
-R184
-R185
 !i113 1
+R12
 R13
-R14
-Eram8
-R15
+Eram64
+Z177 w1632355556
+R1
 R2
+!i122 133
 R3
-!i122 68
-R4
-Z186 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd
-Z187 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd
+Z178 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd
+Z179 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd
+l0
+L7 1
+V6Rz8Fl8GFjkfhlBFhTK@02
+!s100 ZRA:aV4<GEfNd=zndE?P=2
+R7
+33
+R62
+!i10b 1
+R63
+Z180 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd|
+Z181 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram64.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+DEx4 work 5 ram64 0 22 6Rz8Fl8GFjkfhlBFhTK@02
+!i122 133
+l61
+L18 61
+VVfBSK^KJa24Q`>Z[R@W<g0
+!s100 Z2Q6SoaQPJOZdbOXK>km60
+R7
+33
+R62
+!i10b 1
+R63
+R180
+R181
+!i113 1
+R12
+R13
+Eram8
+Z182 w1632355531
+R1
+R2
+!i122 132
+R3
+Z183 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd
+Z184 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd
 l0
 L8 1
 VVj4LCZ8Lb8=jZ@YcZTX@g2
 !s100 R5mZ`al9n>P1>n^5Jl6z_1
-R8
+R7
 33
-Z188 !s110 1632247514
+R62
 !i10b 1
-R183
-Z189 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd|
-Z190 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd|
+R63
+Z185 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd|
+Z186 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Ram8.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 4 ram8 0 22 Vj4LCZ8Lb8=jZ@YcZTX@g2
-!i122 68
+!i122 132
 l60
-L18 46
-Vf:1Kb7h_Wl6UHPK4z1_Fz0
-!s100 [5@gV:SLaghfjfKZ[l]BD0
-R8
+L18 58
+V]<AI?gV7[aUAGG:@AVZj]0
+!s100 h2]74?Sb=HGS:e@HgNZkV0
+R7
 33
-R188
+R62
 !i10b 1
-R183
-R189
-R190
+R63
+R185
+R186
 !i113 1
+R12
 R13
-R14
 Eregister16
-Z191 w1632245930
+R0
+R1
 R2
+!i122 131
 R3
-!i122 67
-R4
-Z192 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd
-Z193 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd
+Z187 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd
+Z188 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd
 l0
 L8 1
 VLBR;A=e>>e_QSBKCXWa5d3
 !s100 n^CUeJ^:id2hXcoBoB>TS3
-R8
+R7
 33
-R188
+R62
 !i10b 1
-R183
-Z194 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd|
-Z195 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd|
+R63
+Z189 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd|
+Z190 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register16.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 10 register16 0 22 LBR;A=e>>e_QSBKCXWa5d3
-!i122 67
+!i122 131
 l28
 L17 28
 VNBB_lOiTOXCR0X49lHcV@2
 !s100 bnjARJ1]l?6WH?;gGlUZ?0
-R8
+R7
 33
-R188
+R62
 !i10b 1
-R183
-R194
-R195
+R63
+R189
+R190
 !i113 1
+R12
 R13
-R14
 Eregister32
-R165
+R163
+R1
 R2
+!i122 130
 R3
-!i122 120
-R0
-Z196 8/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd
-Z197 F/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd
+Z191 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd
+Z192 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd
 l0
 L8 1
 VP]c@k:W8fWg]Xko[>MWb^1
 !s100 []:^=AY8a3]ML1PkdZ@Ea3
-R8
+R7
 33
-Z198 !s110 1632337347
+R62
 !i10b 1
-Z199 !s108 1632337346.000000
-Z200 !s90 -quiet|-modelsimini|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd|
-Z201 !s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd|
+R63
+Z193 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd|
+Z194 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register32.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 10 register32 0 22 P]c@k:W8fWg]Xko[>MWb^1
-!i122 120
+!i122 130
 l28
-Z202 L17 27
+Z195 L17 27
 VCXL5JS]d]Cfgde[lHXC?n2
 !s100 6Sli1zj_jBVia@a?J7nlj1
-R8
+R7
 33
-R198
+R62
 !i10b 1
-R199
-R200
-R201
+R63
+R193
+R194
 !i113 1
+R12
 R13
-R14
 Eregister64
-R165
+R163
+R1
 R2
+!i122 129
 R3
-!i122 119
-R0
-Z203 8/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd
-Z204 F/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd
+Z196 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd
+Z197 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd
 l0
 L8 1
 V;LzQ2fOcY6f?Oc68WJCXG2
 !s100 LCbS]1neA;d2ePolK?XW]3
-R8
+R7
 33
-Z205 !s110 1632337346
+R62
 !i10b 1
-Z206 !s108 1632337345.000000
-Z207 !s90 -quiet|-modelsimini|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd|
-Z208 !s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd|
+R63
+Z198 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd|
+Z199 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register64.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 10 register64 0 22 ;LzQ2fOcY6f?Oc68WJCXG2
-!i122 119
+!i122 129
 l28
-R202
+R195
 Vj<JA7iK913z9PXIY`1n<43
 !s100 7?RF1KIPaUSz6Rg?lHBZG0
-R8
+R7
 33
-R205
+R62
 !i10b 1
-R206
-R207
-R208
+R63
+R198
+R199
 !i113 1
+R12
 R13
-R14
 Eregister8
-Z209 w1632337301
+R163
+R1
 R2
+!i122 128
 R3
-!i122 118
-R0
-Z210 8/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd
-Z211 F/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd
+Z200 8/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd
+Z201 F/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd
 l0
 L8 1
 V9P<nc9YOOPP_Z`H4KFKkR3
 !s100 RH;m?0bQIi^ohZMhS9XdS0
-R8
+R7
 33
-Z212 !s110 1632337344
+R62
 !i10b 1
-Z213 !s108 1632337344.000000
-Z214 !s90 -quiet|-modelsimini|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd|
-Z215 !s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd|
+R63
+Z202 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd|
+Z203 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/src/Register8.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 9 register8 0 22 9P<nc9YOOPP_Z`H4KFKkR3
-!i122 118
+!i122 128
 l28
 L17 73
 Vc=M<zjJ0D>Qn?OJjUmAO82
 !s100 `iUNjBAMG]VRIB^Ymc_DY2
-R8
+R7
 33
-R212
+R62
 !i10b 1
-R213
-R214
-R215
+R63
+R202
+R203
 !i113 1
+R12
 R13
-R14
 Esevenseg
-R43
+R0
+R1
 R2
+!i122 148
 R3
-!i122 84
-R4
-Z216 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd
-Z217 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd
+Z204 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd
+Z205 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd
 l0
 L4 1
 VgdITb;WTH[5cZbCd[CR:E0
 !s100 XWCP4A?:A0m34fY00Z:oS0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z218 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd|
-Z219 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd|
+R9
+Z206 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd|
+Z207 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/sevenSeg.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
+R1
 R2
-R3
 DEx4 work 8 sevenseg 0 22 gdITb;WTH[5cZbCd[CR:E0
-!i122 84
+!i122 148
 l11
 L10 17
 VkRZEZVIh1@gNF0[Gz`J7;1
 !s100 hm83bc@n];>iD[f[I5D7N3
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R218
-R219
+R9
+R206
+R207
 !i113 1
+R12
 R13
-R14
 Etb_binarydigit
-R15
-Z220 D^#x9 vunit_lib 13 vunit_context 0 22 5PF4h;N3nzRfAo898Q8WS3
-Z221 DPx9 vunit_lib 18 run_deprecated_pkg 0 22 06HHNn=l0Y?PoSLo8^<h00
-Z222 DPx9 vunit_lib 10 runner_pkg 0 22 NQlg?N:7cfzSYD?FX_C9W0
-Z223 DPx9 vunit_lib 7 run_pkg 0 22 L;71H6TCjU4gL1AJPm_Vd0
-Z224 DPx9 vunit_lib 13 run_types_pkg 0 22 ZfDWW?_fEaQBz>VkefFUV2
-Z225 DPx9 vunit_lib 20 check_deprecated_pkg 0 22 Y>TVz>[kI8XoP@P02gCOJ2
-Z226 DPx9 vunit_lib 9 check_pkg 0 22 k_?TDGU?=n?1Z0oahO>zF0
-Z227 DPx9 vunit_lib 11 checker_pkg 0 22 E?dhhcE;9VWnHLW[lW4`Y1
-Z228 DPx9 vunit_lib 8 stop_pkg 0 22 UjKiHFdPQ97>_>m`nM3cg3
-Z229 DPx9 vunit_lib 8 core_pkg 0 22 0M7EG>QDghVT?B78KOYPn0
-Z230 DPx9 vunit_lib 18 log_deprecated_pkg 0 22 Q7[lfBh_WC:ca^W64YP1U2
-Z231 DPx9 vunit_lib 9 print_pkg 0 22 z3A9G[B4JdMci]Ub;PK=S3
-Z232 DPx9 vunit_lib 4 path 0 22 ]@TR:IFM`TWfiVL<ZjY=I3
-Z233 DPx9 vunit_lib 15 log_handler_pkg 0 22 4LC?iW3FIdm8J@]^l:Fa_0
-Z234 DPx9 vunit_lib 8 ansi_pkg 0 22 h9cG]NHf=IYSX>SV5U_OM1
-Z235 DPx9 vunit_lib 14 log_levels_pkg 0 22 jGUFnEUH1mU?HKm3YRPGj3
-Z236 DPx9 vunit_lib 10 logger_pkg 0 22 Jj3MC9=bR4jQbFA1jSDXY2
-Z237 DPx9 vunit_lib 10 dictionary 0 22 _W8>On_YoEFWEDP8TQC@R0
-Z238 DPx9 vunit_lib 10 string_ops 0 22 >6lVd?dSYVCeeU;1?_=bg2
-Z239 D^#x9 vunit_lib 18 data_types_context 0 22 [Ik[<YbW8Ag;h5P``aP2g3
-Z240 DPx9 vunit_lib 8 dict_pkg 0 22 _EQKR[P[ibBW^<0mzPejD2
-Z241 DPx9 vunit_lib 19 byte_vector_ptr_pkg 0 22 nMb7G]QlQkbCia?ecQlOB1
-Z242 DPx9 vunit_lib 19 string_ptr_pool_pkg 0 22 ;oGa_UEi8nVncYkDRR_Aj1
-Z243 DPx9 vunit_lib 14 queue_pool_pkg 0 22 W_@1eWPT4E>cBF2g>m`PC0
-Z244 DPx9 vunit_lib 17 integer_array_pkg 0 22 o:H2ie>cVB<O<8]@gJG;:3
-Z245 DPx9 vunit_lib 19 external_string_pkg 0 22 iE_JL@S7G[ScLPziLPH3]3
-Z246 DPx9 vunit_lib 14 string_ptr_pkg 0 22 n[AzFb_A:6S@HQFZYcL]h0
-Z247 DPx9 vunit_lib 9 queue_pkg 0 22 CMi_fVS`R;@j5e>onMNln3
-Z248 DPx9 vunit_lib 27 integer_vector_ptr_pool_pkg 0 22 FX=7VbM]W@D7RN`^3N8aJ3
-Z249 DPx9 vunit_lib 17 codec_builder_pkg 0 22 lMzaQB]AGo[9c?7g60J_93
-R52
-Z250 DPx4 ieee 11 numeric_bit 0 22 G2;d`f^X6V]cQEn8_38:i1
-Z251 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z252 DPx4 ieee 12 math_complex 0 22 lndMRF4<kJnT_9]@:30S@3
-Z253 DPx9 vunit_lib 9 codec_pkg 0 22 VE]>YKnj@eiUJ<U1YSEXb3
-Z254 DPx9 vunit_lib 27 external_integer_vector_pkg 0 22 hl?S7F7[zeX8D09=mXj_W2
-Z255 DPx9 vunit_lib 22 integer_vector_ptr_pkg 0 22 dQHde;mb=n>VUWALE0?M33
-Z256 DPx9 vunit_lib 9 types_pkg 0 22 8X1EBI95Q8hI=Vi3D9DP;0
+Z208 w1632152078
+Z209 D^#x9 vunit_lib 13 vunit_context 0 22 5PF4h;N3nzRfAo898Q8WS3
+Z210 DPx9 vunit_lib 18 run_deprecated_pkg 0 22 06HHNn=l0Y?PoSLo8^<h00
+Z211 DPx9 vunit_lib 10 runner_pkg 0 22 NQlg?N:7cfzSYD?FX_C9W0
+Z212 DPx9 vunit_lib 7 run_pkg 0 22 L;71H6TCjU4gL1AJPm_Vd0
+Z213 DPx9 vunit_lib 13 run_types_pkg 0 22 ZfDWW?_fEaQBz>VkefFUV2
+Z214 DPx9 vunit_lib 20 check_deprecated_pkg 0 22 Y>TVz>[kI8XoP@P02gCOJ2
+Z215 DPx9 vunit_lib 9 check_pkg 0 22 k_?TDGU?=n?1Z0oahO>zF0
+Z216 DPx9 vunit_lib 11 checker_pkg 0 22 E?dhhcE;9VWnHLW[lW4`Y1
+Z217 DPx9 vunit_lib 8 stop_pkg 0 22 UjKiHFdPQ97>_>m`nM3cg3
+Z218 DPx9 vunit_lib 8 core_pkg 0 22 0M7EG>QDghVT?B78KOYPn0
+Z219 DPx9 vunit_lib 18 log_deprecated_pkg 0 22 Q7[lfBh_WC:ca^W64YP1U2
+Z220 DPx9 vunit_lib 9 print_pkg 0 22 z3A9G[B4JdMci]Ub;PK=S3
+Z221 DPx9 vunit_lib 4 path 0 22 ]@TR:IFM`TWfiVL<ZjY=I3
+Z222 DPx9 vunit_lib 15 log_handler_pkg 0 22 4LC?iW3FIdm8J@]^l:Fa_0
+Z223 DPx9 vunit_lib 8 ansi_pkg 0 22 h9cG]NHf=IYSX>SV5U_OM1
+Z224 DPx9 vunit_lib 14 log_levels_pkg 0 22 jGUFnEUH1mU?HKm3YRPGj3
+Z225 DPx9 vunit_lib 10 logger_pkg 0 22 Jj3MC9=bR4jQbFA1jSDXY2
+Z226 DPx9 vunit_lib 10 dictionary 0 22 _W8>On_YoEFWEDP8TQC@R0
+Z227 DPx9 vunit_lib 10 string_ops 0 22 >6lVd?dSYVCeeU;1?_=bg2
+Z228 D^#x9 vunit_lib 18 data_types_context 0 22 [Ik[<YbW8Ag;h5P``aP2g3
+Z229 DPx9 vunit_lib 8 dict_pkg 0 22 _EQKR[P[ibBW^<0mzPejD2
+Z230 DPx9 vunit_lib 19 byte_vector_ptr_pkg 0 22 nMb7G]QlQkbCia?ecQlOB1
+Z231 DPx9 vunit_lib 19 string_ptr_pool_pkg 0 22 ;oGa_UEi8nVncYkDRR_Aj1
+Z232 DPx9 vunit_lib 14 queue_pool_pkg 0 22 W_@1eWPT4E>cBF2g>m`PC0
+Z233 DPx9 vunit_lib 17 integer_array_pkg 0 22 o:H2ie>cVB<O<8]@gJG;:3
+Z234 DPx9 vunit_lib 19 external_string_pkg 0 22 iE_JL@S7G[ScLPziLPH3]3
+Z235 DPx9 vunit_lib 14 string_ptr_pkg 0 22 n[AzFb_A:6S@HQFZYcL]h0
+Z236 DPx9 vunit_lib 9 queue_pkg 0 22 CMi_fVS`R;@j5e>onMNln3
+Z237 DPx9 vunit_lib 27 integer_vector_ptr_pool_pkg 0 22 FX=7VbM]W@D7RN`^3N8aJ3
+Z238 DPx9 vunit_lib 17 codec_builder_pkg 0 22 lMzaQB]AGo[9c?7g60J_93
+R50
+Z239 DPx4 ieee 11 numeric_bit 0 22 G2;d`f^X6V]cQEn8_38:i1
+Z240 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z241 DPx4 ieee 12 math_complex 0 22 lndMRF4<kJnT_9]@:30S@3
+Z242 DPx9 vunit_lib 9 codec_pkg 0 22 VE]>YKnj@eiUJ<U1YSEXb3
+Z243 DPx9 vunit_lib 27 external_integer_vector_pkg 0 22 hl?S7F7[zeX8D09=mXj_W2
+Z244 DPx9 vunit_lib 22 integer_vector_ptr_pkg 0 22 dQHde;mb=n>VUWALE0?M33
+Z245 DPx9 vunit_lib 9 types_pkg 0 22 8X1EBI95Q8hI=Vi3D9DP;0
+R1
 R2
-R3
 !i122 116
-R4
-Z257 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd
-Z258 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd
+Z246 d/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial
+Z247 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd
+Z248 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd
 l0
-R55
+R53
 VeZdN;[`k75J1zD5APC6fg3
 !s100 REZ_kKK2zd=H>`S1=_`0j1
-R8
+R7
 33
-Z259 !s110 1632247519
+Z249 !s110 1632247519
 !i10b 1
-Z260 !s108 1632247519.000000
-Z261 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd|
-Z262 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd|
+Z250 !s108 1632247519.000000
+Z251 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd|
+Z252 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_BinaryDigit.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -1903,6 +1914,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -1910,38 +1922,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 14 tb_binarydigit 0 22 eZdN;[`k75J1zD5APC6fg3
 !i122 116
 l30
-Z263 L16 52
+Z253 L16 52
 VKd=2>Jmm=9>NQb3Z;X8<62
 !s100 _Df=?QK0n=JAafNOPGKlB1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R261
-R262
+R250
+R251
+R252
 !i113 1
+R12
 R13
-R14
 Etb_counterdown
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -1961,6 +1972,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -1968,39 +1980,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 115
-R4
-Z264 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd
-Z265 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd
+R246
+Z254 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd
+Z255 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd
 l0
-R100
+R98
 Vaj@W9Zg8]H`L>7k`>Z3h72
 !s100 Ri6D6MnT<[MD9[`ZYicSO2
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z266 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd|
-Z267 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd|
+R250
+Z256 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd|
+Z257 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_CounterDown.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2020,6 +2031,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2027,38 +2039,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 14 tb_counterdown 0 22 aj@W9Zg8]H`L>7k`>Z3h72
 !i122 115
 l26
-Z268 L14 34
+Z258 L14 34
 V^G1WgV`BmcORW8oS1^4?j0
 !s100 RLP;4JGnOFZHlaog9FL>>2
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R266
-R267
+R250
+R256
+R257
 !i113 1
+R12
 R13
-R14
 Etb_flipflopd
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2078,6 +2089,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2085,39 +2097,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 114
-R4
-Z269 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd
-Z270 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd
+R246
+Z259 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd
+Z260 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd
 l0
-R55
+R53
 VfHc44cLl@IDQ114>GSdm^1
 !s100 Mz2D0a_Fee>:O9S6F=zIz1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z271 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd|
-Z272 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd|
+R250
+Z261 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd|
+Z262 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopD.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2137,6 +2148,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2144,38 +2156,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 12 tb_flipflopd 0 22 fHc44cLl@IDQ114>GSdm^1
 !i122 114
 l34
 L16 65
 VIHiV[c8L:CBS]OB;O:EVN0
 !s100 a6MHG1EBa9Nb]mc;S:Oo40
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R271
-R272
+R250
+R261
+R262
 !i113 1
+R12
 R13
-R14
 Etb_flipflopt
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2195,6 +2206,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2202,39 +2214,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 113
-R4
-Z273 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd
-Z274 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd
+R246
+Z263 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd
+Z264 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd
 l0
-R100
+R98
 VTR@n0H[0;F0CjcAnZHYAD1
 !s100 jY2EJ8AT22>DF56gTj2jf1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z275 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd|
-Z276 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd|
+R250
+Z265 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd|
+Z266 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_FlipFlopT.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2254,6 +2265,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2261,38 +2273,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 12 tb_flipflopt 0 22 TR@n0H[0;F0CjcAnZHYAD1
 !i122 113
 l28
-R268
+R258
 V2eeZ4<Y<;m4?DAlCXCDa_2
 !s100 0eOk1B7aIfo^egbPA4CGe1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R275
-R276
+R250
+R265
+R266
 !i113 1
+R12
 R13
-R14
 Etb_register16
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2312,6 +2323,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2319,39 +2331,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 111
-R4
-Z277 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd
-Z278 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd
+R246
+Z267 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd
+Z268 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd
 l0
-R55
+R53
 VneGCFDX;acZZ2Gi0=VNBK1
 !s100 B0ho:<MTRHJJGgA2N_GAD0
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z279 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd|
-Z280 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd|
+R250
+Z269 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd|
+Z270 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register16.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2371,6 +2382,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2378,38 +2390,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 13 tb_register16 0 22 neGCFDX;acZZ2Gi0=VNBK1
 !i122 111
 l32
-Z281 L16 53
+Z271 L16 53
 VFbQE38jBKL0e>@UeWX0SW3
 !s100 I604lb[IJ^nY<ASXgeJ;31
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R279
-R280
+R250
+R269
+R270
 !i113 1
+R12
 R13
-R14
 Etb_register32
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2429,6 +2440,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2436,39 +2448,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 110
-R4
-Z282 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd
-Z283 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd
+R246
+Z272 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd
+Z273 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd
 l0
-R55
+R53
 VSJ0`l8SZa2l=_YO77RYHV0
 !s100 W3LMbeI<dMFOf]X`Ylj^02
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z284 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd|
-Z285 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd|
+R250
+Z274 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd|
+Z275 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register32.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2488,6 +2499,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2495,38 +2507,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 13 tb_register32 0 22 SJ0`l8SZa2l=_YO77RYHV0
 !i122 110
 l32
-R281
+R271
 VBB2zbhlVLSg>K5RU7:VkS2
 !s100 I>Fbf_[e0E>SXZWe5HRKD1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R284
-R285
+R250
+R274
+R275
 !i113 1
+R12
 R13
-R14
 Etb_register64
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2546,6 +2557,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2553,39 +2565,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 109
-R4
-Z286 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd
-Z287 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd
+R246
+Z276 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd
+Z277 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd
 l0
-R55
+R53
 V>E:WiDI``GMka=5UM>kU80
 !s100 _BznoGzmY[T[:okRZGRm52
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z288 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd|
-Z289 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd|
+R250
+Z278 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd|
+Z279 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register64.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2605,6 +2616,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2612,38 +2624,37 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 13 tb_register64 0 22 >E:WiDI``GMka=5UM>kU80
 !i122 109
 l32
-R281
+R271
 V35O2n8Y5Y1DOdc2XSPB:A1
 !s100 _QIf<:8PL@ZjN;;_P?gFU1
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R288
-R289
+R250
+R278
+R279
 !i113 1
+R12
 R13
-R14
 Etb_register8
-R15
+R208
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2663,6 +2674,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2670,39 +2682,38 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 !i122 108
-R4
-Z290 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd
-Z291 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd
+R246
+Z280 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd
+Z281 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd
 l0
-R55
+R53
 Vge:MDKDbHAAL_cJ9i[6Q^1
 !s100 >fTU?2ZCn[TWhMe34oW7;2
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-Z292 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd|
-Z293 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd|
+R250
+Z282 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd|
+Z283 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/testes/tb_Register8.vhd|
 !i113 1
+R12
 R13
-R14
 Atb
+R209
+R210
+R211
+R212
+R213
+R214
+R215
+R216
+R217
+R218
+R219
 R220
 R221
 R222
@@ -2722,6 +2733,7 @@ R235
 R236
 R237
 R238
+R50
 R239
 R240
 R241
@@ -2729,117 +2741,105 @@ R242
 R243
 R244
 R245
-R246
-R247
-R248
-R249
-R52
-R250
-R251
-R252
-R253
-R254
-R255
-R256
+R1
 R2
-R3
 DEx4 work 12 tb_register8 0 22 ge:MDKDbHAAL_cJ9i[6Q^1
 !i122 108
 l32
-R263
+R253
 VEaM<N?99684DFW03eKFfl1
 !s100 63e6UF7nF;eGd3djL28R03
-R8
+R7
 33
-R259
+R249
 !i10b 1
-R260
-R292
-R293
+R250
+R282
+R283
 !i113 1
+R12
 R13
-R14
 Etoplevel
-Z294 w1632337146
-R52
-R2
-R3
-!i122 123
 R0
-Z295 8/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd
-Z296 F/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd
+R50
+R1
+R2
+!i122 153
+R3
+Z284 8/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd
+Z285 F/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd
 l0
 L20 1
 VFCa<;a8<?R^U<ZKD[QTQj2
 !s100 TMGM1N]j:4gl?hLT<M<KU0
-R8
+R7
 33
-Z297 !s110 1632337351
+R8
 !i10b 1
-Z298 !s108 1632337350.000000
-Z299 !s90 -quiet|-modelsimini|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd|
-!s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd|
+R9
+Z286 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd|
+Z287 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
-R52
+R50
+R1
 R2
-R3
 DEx4 work 8 toplevel 0 22 FCa<;a8<?R^U<ZKD[QTQj2
-!i122 123
+!i122 153
 l40
 L31 14
 Voi_ET^amf^TSDkm29[Hn<1
 !s100 ^WZZLdOe6[^mUocZBH1P?3
-R8
+R7
 33
-R297
+R8
 !i10b 1
-R298
-R299
-Z300 !s107 /home/borg/Documents/Elementos/Z01.1-Alphabet/Projetos/B-LogicaCombinacional/src/TopLevel.vhd|
+R9
+R286
+R287
 !i113 1
+R12
 R13
-R14
 Ezerador16
-R43
+R0
+R1
 R2
+!i122 139
 R3
-!i122 75
-R4
-Z301 8/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd
-Z302 F/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd
+Z288 8/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd
+Z289 F/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd
 l0
 L8 1
 VnHjHn^^b>WhfhGLTYS^N30
 !s100 GFgmn:R<h:[ci`T3hP7g?0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-Z303 !s90 -quiet|-modelsimini|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd|
-Z304 !s107 /home/borg/Desktop/ELEMENTOS/gitDoGrupo/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd|
+R9
+Z290 !s90 -quiet|-modelsimini|/home/borg/Music/Z01.1-Alphabet/Projetos/D-LogicaSequencial/vunit_out/modelsim/modelsim.ini|-2008|-work|lib|/home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd|
+Z291 !s107 /home/borg/Music/Z01.1-Alphabet/Projetos/C-UnidadeLogicaAritmetica/src/zerador16.vhd|
 !i113 1
+R12
 R13
-R14
 Artl
+R1
 R2
-R3
 DEx4 work 9 zerador16 0 22 nHjHn^^b>WhfhGLTYS^N30
-!i122 75
+!i122 139
 l21
 L16 10
 V0JZhFoSVk:SffhAJ>:0N:0
 !s100 CFM1nY9]GPB:VHSQ]]kEH0
-R8
+R7
 33
-R9
+R8
 !i10b 1
-R10
-R303
-R304
+R9
+R290
+R291
 !i113 1
+R12
 R13
-R14
