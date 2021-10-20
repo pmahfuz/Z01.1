@@ -8,5 +8,5 @@
 #                                    #
 ######################################
 
-ControlUnit.vhd
-MemoryIO.vhd
+#ControlUnit.vhd
+#MemoryIO.vhd
