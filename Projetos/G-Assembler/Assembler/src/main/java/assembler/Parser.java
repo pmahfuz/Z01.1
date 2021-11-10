@@ -88,7 +88,7 @@ public class Parser {
      * @param  command instrução a ser analisada.
      * @return o tipo da instrução.
      */
-    public assembler.Parser.CommandType commandType(String command) {
+    public CommandType commandType(String command) {
         if (command.contains("leaw")) {
             return assembler.Parser.CommandType.A_COMMAND;
         }
@@ -167,4 +167,3 @@ public class Parser {
         String[] array = command.split(",");
         return array;
     }
-}
