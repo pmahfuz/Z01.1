@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.*;
 
 /**
  * Encapsula o código de leitura. Carrega as instruções na linguagem assembly,
@@ -18,13 +19,15 @@ import java.io.IOException;
 public class Parser {
 
     private final BufferedReader fileReader;
-    public String inputFile;		        // arquivo de leitura
-    public int lineNumber = 0;		     	// linha atual do arquivo (nao do codigo gerado)
+    public String inputFile;                // arquivo de leitura
+    public int lineNumber = 0;                // linha atual do arquivo (nao do codigo gerado)
     public String currentCommand = "";      // comando atual
-    public String currentLine;			    // linha de codigo atual
+    public String currentLine;                // linha de codigo atual
 
 
-    /** Enumerator para os tipos de comandos do Assembler. */
+    /**
+     * Enumerator para os tipos de comandos do Assembler.
+     */
     public enum CommandType {
         A_COMMAND,      // comandos LEA, que armazenam no registrador A
         C_COMMAND,      // comandos de calculos
@@ -33,6 +36,7 @@ public class Parser {
 
     /**
      * Abre o arquivo de entrada NASM e se prepara para analisá-lo.
+     *
      * @param file arquivo NASM que será feito o parser.
      */
     public Parser(String file) throws FileNotFoundException {
@@ -50,11 +54,12 @@ public class Parser {
      * Carrega uma instrução e avança seu apontador interno para o próxima
      * linha do arquivo de entrada. Caso não haja mais linhas no arquivo de
      * entrada o método retorna "Falso", senão retorna "Verdadeiro".
+     *
      * @return Verdadeiro se ainda há instruções, Falso se as instruções terminaram.
      */
     public Boolean advance() {
         /* ja esta pronto */
-        while(true){
+        while (true) {
             try {
                 currentLine = fileReader.readLine();
             } catch (IOException e) {
@@ -72,6 +77,7 @@ public class Parser {
 
     /**
      * Retorna o comando "intrução" atual (sem o avanço)
+     *
      * @return a instrução atual para ser analilisada
      */
     public String command() {
@@ -81,49 +87,87 @@ public class Parser {
 
     /**
      * Retorna o tipo da instrução passada no argumento:
-     *  A_COMMAND para leaw, por exemplo leaw $1,%A
-     *  L_COMMAND para labels, por exemplo Xyz: , onde Xyz é um símbolo.
-     *  C_COMMAND para todos os outros comandos
-     * @param  command instrução a ser analisada.
+     * A_COMMAND para leaw, por exemplo leaw $1,%A
+     * L_COMMAND para labels, por exemplo Xyz: , onde Xyz é um símbolo.
+     * C_COMMAND para todos os outros comandos
+     *
+     * @param command instrução a ser analisada.
      * @return o tipo da instrução.
      */
     public CommandType commandType(String command) {
-        /* TODO: implementar */
-    	return null;
+        if (command.contains("leaw")) {
+            return assembler.Parser.CommandType.A_COMMAND;
+        } else if (command.contains(":")) {
+            return assembler.Parser.CommandType.L_COMMAND;
+        } else {
+            return assembler.Parser.CommandType.C_COMMAND;
+        }
     }
 
     /**
      * Retorna o símbolo ou valor numérico da instrução passada no argumento.
      * Deve ser chamado somente quando commandType() é A_COMMAND.
-     * @param  command instrução a ser analisada.
+     *
+     * @param command instrução a ser analisada.
      * @return somente o símbolo ou o valor número da instrução.
      */
     public String symbol(String command) {
-        /* TODO: implementar */
-    	return null;
+        String simbolo = ""; // variavel que guarda o símbolo para colocar no return
+        // se o command (comando usado para entrar nessa função ser um comando
+        // que contempla o tipo A, ele entra no if
+        if (commandType(command) == assembler.Parser.CommandType.A_COMMAND) {
+            boolean comeca_symbol = false;
+            for (int i = 0; i < command.length(); i++) { // percorre toda string (letra por letra)
+                if (command.charAt(i) == '$' && comeca_symbol == false) {
+                    comeca_symbol = true;
+                } else if (comeca_symbol && command.charAt(i) == ',') { // só pega o $
+                    comeca_symbol = false;
+                    break;
+                } else if (comeca_symbol) {
+                    simbolo += command.charAt(i);
+                }
+            }
+        }
+        return simbolo;
     }
 
     /**
      * Retorna o símbolo da instrução passada no argumento.
      * Deve ser chamado somente quando commandType() é L_COMMAND.
-     * @param  command instrução a ser analisada.
+     *
+     * @param command instrução a ser analisada.
      * @return o símbolo da instrução (sem os dois pontos).
      */
     public String label(String command) {
-        /* TODO: implementar */
-    	return null;
+        String simbolo = "";
+
+        for (int i = 0; i < command.length(); i++) {
+            if (command.charAt(i) != ':') {
+                simbolo += command.charAt(i);
+            } else {
+                return simbolo;
+            }
+        }
+        return simbolo;
     }
 
     /**
      * Separa os mnemônicos da instrução fornecida em tokens em um vetor de Strings.
      * Deve ser chamado somente quando CommandType () é C_COMMAND.
-     * @param  command instrução a ser analisada.
-     * @return um vetor de string contento os tokens da instrução (as partes do comando).
+     *
+     * @param command instrução a ser analisada.
+     * @return um vetor de string contendo os tokens da instrução (as partes do comando).
+     * <p>
+     * linha 164 -> remove todos os espaços do início e do fim da string
+     * linha 165 -> troca todas as vírgulas com espaços por somente vírgulas
+     * linha 166 -> troca todos os espaços por vírgulas
+     * linha 167 -> separa em diferentes strings dentro da variável array
      */
     public String[] instruction(String command) {
-        /* TODO: implementar */
-    	return null;
+        command = command.trim();
+        command = command.replace(", ", ",");
+        command = command.replace(" ", ",");
+        String[] array = command.split(",");
+        return array;
     }
-
-
 }
