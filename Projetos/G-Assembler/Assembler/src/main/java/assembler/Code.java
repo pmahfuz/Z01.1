@@ -16,17 +16,17 @@ public class Code {
      * @return Opcode (String de 4 bits) com código em linguagem de máquina para a instrução.
      */
     public static String dest(String[] mnemnonic) {
-        if(mnemnonic[0]=="addw" || mnemnonic[0]=="subw" || mnemnonic[0]=="rsubw" || mnemnonic[0]=="andw" || mnemnonic[0]=="orw"){
+        if(mnemnonic[0].equals("addw") || mnemnonic[0].equals("subw") || mnemnonic[0].equals("rsubw") || mnemnonic[0].equals("andw") || mnemnonic[0].equals("orw")){
             if(mnemnonic.length >= 3) {
                 StringBuilder saida = new StringBuilder("0000");
                 for (int i = 3; i < mnemnonic.length; i++) {
-                    if (mnemnonic[i] == "(%A)") {
+                    if (mnemnonic[i].equals("(%A)")) {
                         saida.setCharAt(1, '1');
                     }
-                    if (mnemnonic[i] == "%D") {
+                    if (mnemnonic[i].equals("%D")) {
                         saida.setCharAt(2, '1');
                     }
-                    if (mnemnonic[i] == "%A") {
+                    if (mnemnonic[i].equals("%A")) {
                         saida.setCharAt(3, '1');
                     }
                     //System.out.printf("Saida %s\n", saida.toString());
@@ -34,23 +34,23 @@ public class Code {
                 return saida.toString();
             }
         }
-        if(mnemnonic[0] == "movw"){
+        if(mnemnonic[0].equals("movw")){
             StringBuilder saida = new StringBuilder("0000");
             for (int i = 2; i < mnemnonic.length; i++) {
-                if (mnemnonic[i] == "(%A)") {
+                if (mnemnonic[i].equals("(%A)")) {
                     saida.setCharAt(1, '1');
                 }
-                if (mnemnonic[i] == "%D") {
+                if (mnemnonic[i].equals("%D")) {
                     saida.setCharAt(2, '1');
                 }
-                if (mnemnonic[i] == "%A") {
+                if (mnemnonic[i].equals("%A")){
                     saida.setCharAt(3, '1');
                 }
             }
             return saida.toString();
         }
 
-        if(mnemnonic[0] == "leaw"){
+        if(mnemnonic[0].equals("leaw")){
             switch (mnemnonic[2]){
                 default: return "0000";
                 case("(%A)"): return "0100";
@@ -59,7 +59,7 @@ public class Code {
             }
         }
 
-        if(mnemnonic[0]=="decw" || mnemnonic[0]=="incw" || mnemnonic[0]=="notw" || mnemnonic[0]=="negw"){
+        if(mnemnonic[0].equals("decw") || mnemnonic[0].equals("incw") || mnemnonic[0].equals("notw") || mnemnonic[0].equals("negw")){
             switch (mnemnonic[1]){
                 default: return "0000";
                 case("(%A)"): return "0100";
@@ -82,134 +82,146 @@ public class Code {
         switch (mnemnonic[0]){
             default: return "000000000";
             case "orw":
-                if(mnemnonic[1]=="%A" || mnemnonic[2] == "%A"){
+                if(mnemnonic[1].equals("%A") || mnemnonic[2].equals("%A")){
                     return "000" + "010101";
                 }
                 else{
                     return "001" + "010101";
                 }
             case "andw":
-                if(mnemnonic[1]=="%A" || mnemnonic[2] == "%A"){
+                if(mnemnonic[1].equals("%A") || mnemnonic[2].equals("%A")){
                     return "000" + "000000";
                 }
                 else{
                     return "001" + "000000";
                 }
             case "subw":
-                if(mnemnonic[2]=="$1"){
-                    if(mnemnonic[1]=="%A"){
+                if(mnemnonic[2].equals("$1")){
+                    if(mnemnonic[1].equals("%A")){
                         return "000" + "110010";
                     }
-                    else if(mnemnonic[1]=="(%A)"){
+                    else if(mnemnonic[1].equals("(%A)")){
                         return "001" + "110010";
                     }
-                    else if(mnemnonic[1]=="%D"){
+                    else if(mnemnonic[1].equals("%D")){
                         return "000" + "001110";
                     }
                 }
-                else if(mnemnonic[1]=="%A"){
+                else if(mnemnonic[1].equals("%A")){
                     return "000" + "000111";
                 }
-                else if (mnemnonic[1]=="(%A)"){
+                else if (mnemnonic[1].equals("(%A)")){
                     return "001" + "000111";
                 }
-                else if (mnemnonic[2]=="%A"){
+                else if (mnemnonic[2].equals("%A")){
                     return "000" + "010011";
                 }
-                else if (mnemnonic[2]=="(%A)"){
+                else if (mnemnonic[2].equals("(%A)")){
                     return "001" + "010011";
                 }
             case "rsubw":
-                if(mnemnonic[1]=="1"){
-                    if(mnemnonic[2]=="%A"){
+                if(mnemnonic[1].equals("1")){
+                    if(mnemnonic[2].equals("%A")){
                         return "000" + "110010";
                     }
-                    else if(mnemnonic[2]=="(%A)"){
+                    else if(mnemnonic[2].equals("(%A)")){
                         return "001" + "110010";
                     }
-                    else if(mnemnonic[2]=="%D"){
+                    else if(mnemnonic[2].equals("%D")){
                         return "000" + "001110";
                     }
                 }
-                else if(mnemnonic[2]=="%A"){
+                else if(mnemnonic[2].equals("%A")){
                     return "000" + "000111";
                 }
-                else if (mnemnonic[2]=="(%A)"){
+                else if (mnemnonic[2].equals("(%A)")){
                     return "001" + "000111";
                 }
-                else if (mnemnonic[1]=="%A"){
+                else if (mnemnonic[1].equals("%A")){
                     return "000" + "010011";
                 }
-                else if (mnemnonic[1]=="(%A)"){
+                else if (mnemnonic[1].equals("(%A)")){
                     return "001" + "010011";
                 }
             case "addw":
-                if(mnemnonic[1]=="$1" || mnemnonic[2]=="1"){
-                    if(mnemnonic[1]=="%A" || mnemnonic[2]=="%A"){
+                if(mnemnonic[1].equals("$1") || mnemnonic[2].equals("1")){
+                    if(mnemnonic[1].equals("%A") || mnemnonic[2].equals("%A")){
                         return "000" + "110111";
                     }
-                    else if(mnemnonic[1]=="(%A)" || mnemnonic[2]=="(%A)"){
+                    else if(mnemnonic[1].equals("(%A)") || mnemnonic[2].equals("(%A)")){
                         return "001" + "110111";
                     }
-                    else if(mnemnonic[1]=="%D" || mnemnonic[2]=="%D"){
+                    else if(mnemnonic[1].equals("%D") || mnemnonic[2].equals("%D")){
                         return "000" + "011111";
                     }
                 }
-                else if(mnemnonic[1]=="%A" || mnemnonic[2] == "%A"){
+                else if(mnemnonic[1].equals("%A") || mnemnonic[2].equals("%A")){
                     return "000" + "000010";
                 }
                 else{
                     return "001" + "000010";
                 }
             case "incw":
-                if(mnemnonic[1]=="%A"){
+                if(mnemnonic[1].equals("%A")){
                     return "000" + "110111";
                 }
-                else if(mnemnonic[1]=="(%A)"){
+                else if(mnemnonic[1].equals("(%A)")){
                     return "001" + "110111";
                 }
-                else if(mnemnonic[1]=="%D"){
+                else if(mnemnonic[1].equals("%D")){
                     return "000" + "011111";
                 }
             case "decw":
-                if(mnemnonic[1]=="%A"){
+                if(mnemnonic[1].equals("%A")){
                     return "000" + "110010";
                 }
-                else if(mnemnonic[1]=="(%A)"){
+                else if(mnemnonic[1].equals("(%A)")){
                     return "001" + "110010";
                 }
-                else if(mnemnonic[1]=="%D"){
+                else if(mnemnonic[1].equals("%D")){
                     return "000" + "001110";
                 }
             case "notw":
-                if(mnemnonic[1]=="%A"){
+                if(mnemnonic[1].equals("%A")){
                     return "000" + "110001";
                 }
-                else if(mnemnonic[1]=="(%A)"){
+                else if(mnemnonic[1].equals("(%A)")){
                     return "001" + "110001";
                 }
-                else if(mnemnonic[1]=="%D"){
+                else if(mnemnonic[1].equals("%D")){
                     return "000" + "001101";
                 }
             case "negw":
-                if(mnemnonic[1]=="%A"){
+                if(mnemnonic[1].equals("%A")){
                     return "000" + "110011";
                 }
-                else if(mnemnonic[1]=="(%A)"){
+                else if(mnemnonic[1].equals("(%A)")){
                     return "001" + "110011";
                 }
-                else if(mnemnonic[1]=="%D"){
+                else if(mnemnonic[1].equals("%D")){
                     return "000" + "001111";
                 }
             case "movw":
-                if(mnemnonic[1]=="%A"){
+                if(mnemnonic[1].equals("%A")){
                     return "000" + "110000";
                 }
-                else if(mnemnonic[1]=="(%A)"){
+                else if(mnemnonic[1].equals("(%A)")){
                     return "001" + "110000";
                 }
-                else if(mnemnonic[1]=="%D"){
+                else if(mnemnonic[1].equals("%D")){
                     return "000" + "001100";
+                }
+                else if (mnemnonic[1].equals("$0")){
+
+                    return "000" + "101010";
+                }
+                else if (mnemnonic[1].equals("$1")){
+
+                    return "000" + "111111";
+                }
+                else if (mnemnonic[1].equals("$-1")){
+
+                    return "000" + "111010";
                 }
             case "jmp": return "000" + "001100";
             case "je": return "000" + "001100";

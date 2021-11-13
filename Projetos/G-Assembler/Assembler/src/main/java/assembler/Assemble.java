@@ -58,8 +58,19 @@ public class Assemble {
                 /* TODO: implementar */
                 // deve verificar se tal label já existe na tabela,
                 // se não, deve inserir. Caso contrário, ignorar.
+                if (!table.contains(label)){
+                    table.addEntry(label, romAddress);
+                    if (this.debug){
+                        System.out.println("Add new label: "+ label+" in table");
+                    }
+                }
             }
-            romAddress++;
+            else{
+                romAddress++;
+                if (this.debug){
+                    System.out.println("Label already exists");
+                }
+            }
         }
         parser.close();
 
@@ -78,6 +89,13 @@ public class Assemble {
                     // deve verificar se tal símbolo já existe na tabela,
                     // se não, deve inserir associando um endereço de
                     // memória RAM a ele.
+                    if (!table.contains(symbol)){
+                        table.addEntry(symbol, ramAddress);
+                        if (this.debug){
+                            System.out.println("Add new symbol: "+ symbol+" in table");
+                            ramAddress++;
+                        }
+                    }
                 }
             }
         }
@@ -106,8 +124,24 @@ public class Assemble {
             switch (parser.commandType(parser.command())){
                 /* TODO: implementar */
                 case C_COMMAND:
+                    String[] instructionSet = parser.instruction(parser.command());
+
+                    String jump = Code.jump(instructionSet);
+                    String dest = Code.dest(instructionSet);
+                    String comp = Code.comp(instructionSet);
+                    instruction= "10" + comp + dest + jump;
+
                 break;
             case A_COMMAND:
+                String symbol = parser.symbol(parser.command());
+                if (Character.isDigit(symbol.charAt(0))){
+                    String symbolB = Code.toBinary(symbol);
+                    instruction = "00" + symbolB;
+                }
+                else{
+                    String address = table.getAddress(symbol).toString();
+                    instruction = "00" + Code.toBinary(address);
+                }
                 break;
             default:
                 continue;
