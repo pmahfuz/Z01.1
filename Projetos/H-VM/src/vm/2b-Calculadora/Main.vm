@@ -23,6 +23,16 @@
 // ---------------------------------
 
 function Main.main 0
+  // Fazendo a subtração
+  push constant 8      // Colocando valor 8 na pilha 
+  push constant 1      // Colocando valor 1 na pilha 
+  sub                  // Subtraindo 8 -1
+  // Fazendo a soma 
+  push constant 14     // Colocando valor 14 na pilha 
+  push constant 2      // Colocando valor 2 na pilha 
+  add                  // Somando 14 + 2
+  call mult 2          // Chamando a função mult, pra multiplicar o penultimo valor da pilha (resultado subtracao) com a ultima possição da pilha (resultado da soma)
+  pop temp 1           // Salvando resultado retornado pela funcao em temp 1
 
 
 

@@ -1,1 +1,22 @@
 function div 2
+
+label LOOP               // Começa loop
+    push constant 0     // Verifica se to primeiro valor da pilha = 0
+    push argument 0      // Pega priemiro argumento da pilha  
+    eq
+    if-goto end         // Se condicao for veradeira vai para o fim
+
+    push argument 0     // Pega priemiro argumento da pilha 
+    push argument 1     // Pega segundo argumento da pilha 
+    sub                 // Subtrai 
+    pop argument 0      // Salva resultado em temp 0
+
+    push local 1         // Coloca valor na variável local da pilha
+    push constant 1     // Coloca valor 1 na pilha
+    add                 // Soma valor de temp 3 + 1
+    pop local 1         // Salva na variável local
+    goto LOOP 
+
+label end
+    pop local 1
+    return 
