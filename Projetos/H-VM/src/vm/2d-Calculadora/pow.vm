@@ -1,1 +1,24 @@
-function pow 3
+function pow 2
+    push constant 0
+    pop local 0  //contador
+    push constant 1
+    pop local 1 //operando
+
+    label cond
+        // vê se o contador já chegou a 3
+        push local 0
+        push argument 1
+        eq
+        if-goto end
+        push argument 1
+        push local 1
+        call mult 2
+        pop local 1
+        push local 0
+        push constant 1
+        add
+        pop local 0
+        goto cond
+    label end
+        push local 1
+    return
