@@ -105,7 +105,7 @@ public class Code {
         if(command == Parser.CommandType.C_POP) {
             commands.add(String.format("; %d - POP %s %d", lineCode++ ,segment, index));
 
-            if (segment.equals("constant"))
+            if (segment.equals("constant")){
                 Error.error("Não faz sentido POP com constant");
             } else if (segment.equals("local")) {
                 commands.add("leaw $SP, %A");      // carega SP em %A
