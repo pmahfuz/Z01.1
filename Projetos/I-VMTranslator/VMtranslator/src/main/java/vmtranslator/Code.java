@@ -105,48 +105,242 @@ public class Code {
         if(command == Parser.CommandType.C_POP) {
             commands.add(String.format("; %d - POP %s %d", lineCode++ ,segment, index));
 
-            if (segment.equals("constant")) {
+            if (segment.equals("constant")){
                 Error.error("Não faz sentido POP com constant");
             } else if (segment.equals("local")) {
+                commands.add("leaw $SP, %A");      // carega SP em %A
+                commands.add("movw (%A), %D");     // pega valor que SP aponta
+                commands.add("decw %D");           // diminui o valor da linha em 1
+                commands.add("movw %D, (%A)");     // salva o valor da linha anterior da pinha em SP
+                commands.add("leaw $"+ String.valueOf(index)+" ,%A");
+                commands.add("movw %A, %D");
+                commands.add("leaw $LCL, %A");    // carega o LCL em %A
+                commands.add("movw (%A), %A");    // move o que esta na momoria do LCL para %A
+                commands.add("addw %A, %D, %D");  // soma o index com a primira linha do LCL para pegar o valor correto
+                commands.add("leaw $R5, %A");     // carregando o temp 0 RAM[5] em %A
+                commands.add("movw %D, (%A)");    // salvando o valor de acesso ao local em temp 0
+                commands.add("leaw $SP, %A");     // carrega SP em %A
+                commands.add("movw (%A), %A");    // valor do SP em %A
+                commands.add("movw (%A), %D");    // movendo para D o que está no topo da pilha
+                commands.add("leaw $R5, %A");     // acessando temp 0
+                commands.add("movw (%A), %A");    // movendo o valor salvo em temp 0 (possição da memoria do local) para %A
+                commands.add("movw %D, (%A)");   // movendo o que estava no topo da pilha para local 1
 
             } else if (segment.equals("argument")) {
+                commands.add("leaw $SP, %A");      // carega SP em %A
+                commands.add("movw (%A), %D");     // pega valor que SP aponta
+                commands.add("decw %D");           // diminui o valor da linha em 1
+                commands.add("movw %D, (%A)");     // salva o valor da linha anterior da pinha em SP
+                commands.add("leaw $"+ String.valueOf(index)+" ,%A");
+                commands.add("movw %A, %D");
+                commands.add("leaw $ARG, %A");    // carega o LCL em %A
+                commands.add("movw (%A), %A");    // move o que esta na momoria do ARG para %A
+                commands.add("addw %A, %D, %D");  // soma o index com a primira linha do LCL para pegar o valor correto
+                commands.add("leaw $R5, %A");     // carregando o temp 0 RAM[5] em %A
+                commands.add("movw %D, (%A)");    // salvando o valor de acesso ao arg em temp 0
+                commands.add("leaw $SP, %A");     // carrega SP em %A
+                commands.add("movw (%A), %A");    // valor do SP em %A
+                commands.add("movw (%A), %D");    // movendo para D o que está no topo da pilha
+                commands.add("leaw $R5, %A");     // acessando temp 0
+                commands.add("movw (%A), %A");    // movendo o valor salvo em temp 0 (possição da memoria do arg)para %A
+                commands.add("movw %D, (%A)");   // movendo o que estava no topo da pilha para arg
 
             } else if (segment.equals("this")) {
-
+                commands.add("leaw $SP, %A");      // carega SP em %A
+                commands.add("movw (%A), %D");     // pega valor que SP aponta
+                commands.add("decw %D");           // diminui o valor da linha em 1
+                commands.add("movw %D, (%A)");     // salva o valor da linha anterior da pinha em SP
+                commands.add("leaw $"+ String.valueOf(index)+" ,%A");
+                commands.add("movw %A, %D");
+                commands.add("leaw $THIS, %A"); //carrega THIS em %A
+                commands.add("movw (%A), %A");    // move o que esta na momoria do LCL para %A
+                commands.add("addw %A, %D, %D");  // soma o index com a primira linha do THIS pegar o valor correto
+                commands.add("leaw $R5, %A");     // carregando o temp 0 RAM[5] em %A
+                commands.add("movw %D, (%A)");    // salvando o valor de acesso ao this temp0
+                commands.add("leaw $SP, %A");     // carrega SP em %A
+                commands.add("movw (%A), %A");    // valor do SP em %A
+                commands.add("movw (%A), %D");    // movendo para D o que está no topo da pilha
+                commands.add("leaw $R5, %A");     // acessando temp 0
+                commands.add("movw (%A), %A");    // movendo o valor salvo em temp 0 (possição da memoria do this) para %A
+                commands.add("movw %D, (%A)");   // movendo o que estava no topo da pilha para this
             } else if (segment.equals("that")) {
-
+                commands.add("leaw $SP, %A");      // carega SP em %A
+                commands.add("movw (%A), %D");     // pega valor que SP aponta
+                commands.add("decw %D");           // diminui o valor da linha em 1
+                commands.add("movw %D, (%A)");     // salva o valor da linha anterior da pinha em SP
+                commands.add("leaw $"+ String.valueOf(index)+" ,%A");
+                commands.add("movw %A, %D");
+                commands.add("leaw $THAT, %A");   //carega THAT em %A
+                commands.add("movw (%A), %A");    // move o que esta na momoria do LCL para %A
+                commands.add("addw %A, %D, %D");  // soma o index com a primira linha do LCL para pegar o valor correto
+                commands.add("leaw $R5, %A");     // carregando o temp 0 RAM[5] em %A
+                commands.add("movw %D, (%A)");    // salvando o valor de acesso ao local em temp 0
+                commands.add("leaw $SP, %A");     // carrega SP em %A
+                commands.add("movw (%A), %A");    // valor do SP em %A
+                commands.add("movw (%A), %D");    // movendo para D o que está no topo da pilha
+                commands.add("leaw $R5, %A");     // acessando temp 0
+                commands.add("movw (%A), %A");    // movendo o valor salvo em temp 0 (possição da memoria do local) para %A
+                commands.add("movw %D, (%A)");   // movendo o que estava no topo da pilha para local 1
             } else if (segment.equals("static")) {
-
+                commands.add("leaw $SP, %A");   // carega SP em %A
+                commands.add("movw (%A), %D");  // move valor que SP aponta para %D
+                commands.add("decw %D");        // dominui o valor da linha em 1
+                commands.add("movw %D, (%A)"); // salva o novo valor da linha em SP
+                commands.add("movw (%A), %A"); // move o valor da linha para %A
+                commands.add("movw (%A). %D"); //move o valor da linha para %D
+                commands.add("leaw $"+ this.filename+"."+ String.valueOf(index)+",%A");
+                commands.add("movw %D, (%A)");  // move o valor da linha para o lugar que static aponta
             } else if (segment.equals("temp")) {
-
+                commands.add("leaw $SP,%A");                       //carrega SP em %A
+                commands.add("movw (%A),%D");                     // move valor apontado por SP para %D
+                commands.add("decw %D");                          // diminui o valor em 1
+                commands.add("movw %D,(%A)");                     // salva o valor - 1 para SP
+                commands.add("movw (%A),%A");                     // move o valor da linha anterior da pilha para %A
+                commands.add("movw (%A),%D");                     // pega o ultimo valor que estava na pilha
+                commands.add("leaw $" + String.valueOf(index+5) + ",%A"); // carega o valor do temp em %A
+                commands.add("movw %D,(%A)");                     // move o ultimo valor da pilha para o temp 
             } else if (segment.equals("pointer")) {
                 if(index==0) {
-
+                    commands.add("leaw $SP,%A");
+                    commands.add("movw (%A),%D");
+                    commands.add("decw %D");
+                    commands.add("movw %D,(%A)");
+                    commands.add("movw (%A),%A");
+                    commands.add("movw (%A),%D");
+                    commands.add("leaw $THIS,%A");
+                    commands.add("movw %D,(%A)");
                 } else {
-
+                    commands.add("leaw $SP,%A");
+                    commands.add("movw (%A),%D");
+                    commands.add("decw %D");
+                    commands.add("movw %D,(%A)");
+                    commands.add("movw (%A),%A");
+                    commands.add("movw (%A),%D");
+                    commands.add("leaw $THAT,%A");
+                    commands.add("movw %D,(%A)");
                 }
             }
         } else if (command == Parser.CommandType.C_PUSH) {
             commands.add(String.format("; %d - PUSH %s %d", lineCode++ ,segment, index));
 
             if (segment.equals("constant")) {
+                commands.add("leaw $"+String.valueOf(index)+", %A");  //carrega o valor da constante
+                commands.add("movw %A, %D");                          //salva valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw (%A), %A");                        //%A = 256
+                commands.add("movw %D, (%A)");                        //mov o valor de %D para a RAM[256]
+                commands.add("incw %A");                              // aumenta em 1 o valor de %A/SP
+                commands.add("movw %A, %D");                          // salva esse valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw %D, (%A)");                        // carega o novo valor que SP aponta
+
 
             } else if (segment.equals("local")) {
+                commands.add("leaw $"+String.valueOf(index)+", %A");  //carrega o valor da constante
+                commands.add("movw %A, %D");                          //salva valor em %D
+                commands.add("leaw $LCL, %A");
+                commands.add("movw (%A), %A");                        //pega valor da linha que comeca o primeiro local
+                commands.add("addw %D, %A, %A");                      //soma o numero do index com o valor apontado polo LCL
+                commands.add("movw (%A), %D");                        // move o valor qu eta no local para %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw (%A), %A");                        //%A = 256
+                commands.add("movw %D, (%A)");                        //mov o valor de %D para a RAM[256]
+                commands.add("incw %A");                              // aumenta em 1 o valor de %A/SP
+                commands.add("movw %A, %D");                          // salva esse valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw %D, (%A)");                        // carega o novo valor que SP aponta
+
+
 
             } else if (segment.equals("argument")) {
+                commands.add("leaw $"+String.valueOf(index)+", %A");  //carrega o valor da constante
+                commands.add("movw %A, %D");                          //salva valor em %D
+                commands.add("leaw $ARG, %A");
+                commands.add("movw (%A), %A");
+                commands.add("addw %D, %A, %A");                      //soma o numero do index com o valor apontado polo ARG
+                commands.add("movw (%A), %D");                        // move o valor qu eta no local para %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw (%A), %A");                        //%A = 256
+                commands.add("movw %D, (%A)");                        //mov o valor de %D para a RAM[256]
+                commands.add("incw %A");                              // aumenta em 1 o valor de %A/SP
+                commands.add("movw %A, %D");                          // salva esse valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw %D, (%A)");                        // carega o novo valor que SP aponta
 
             } else if (segment.equals("this")) {
+                commands.add("leaw $"+String.valueOf(index)+", %A");  //carrega o valor da constante
+                commands.add("movw %A, %D");                          //salva valor em %D
+                commands.add("leaw $THIS, %A");
+                commands.add("movw (%A), %A");
+                commands.add("addw %D, %A, %A");                      //soma o numero do index com o valor apontado polo THIS
+                commands.add("movw (%A), %D");                        // move o valor qu esta no local para %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw (%A), %A");                        //%A = 256
+                commands.add("movw %D, (%A)");                        //mov o valor de %D para a RAM[256]
+                commands.add("incw %A");                              // aumenta em 1 o valor de %A/SP
+                commands.add("movw %A, %D");                          // salva esse valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw %D, (%A)");                        // carega o novo valor que SP aponta
 
             } else if (segment.equals("that")) {
+                commands.add("leaw $"+String.valueOf(index)+", %A");  //carrega o valor da constante
+                commands.add("movw %A, %D");                          //salva valor em %D
+                commands.add("leaw $THAT, %A");
+                commands.add("movw (%A), %A");
+                commands.add("addw %D, %A, %A");                      //soma o numero do THAT com o valor apontado polo LCL
+                commands.add("movw (%A), %D");                        // move o valor qu eta no local para %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw (%A), %A");                        //%A = 256
+                commands.add("movw %D, (%A)");                        //mov o valor de %D para a RAM[256]
+                commands.add("incw %A");                              // aumenta em 1 o valor de %A/SP
+                commands.add("movw %A, %D");                          // salva esse valor em %D
+                commands.add("leaw $SP, %A");                         //%A = 0
+                commands.add("movw %D, (%A)");                        // carega o novo valor que SP aponta
 
             } else if (segment.equals("static")) {
+                commands.add("leaw $"+this.filename+"."+String.valueOf(index)+", %A");  //carrega o label statir no reg %A
+                commands.add("movw %A, %D");                                            //salva valor em %D
+                commands.add("leaw $SP, %A");                                          //%A = 0
+                commands.add("movw (%A), %A");                                         //%A é o valor da memoria
+                commands.add("movw %D, (%A)");                                         //move o resultado de %d (static) para o valor da memória apontada pelo SP
+                commands.add("leaw $SP, %A");                                          //%A = 0
+                commands.add("movw (%A), %D");                                         //pega o valor a pontado por SP e salva em %D
+                commands.add("incw %D");                                               //aumenta em 1 o valor de %D
+                commands.add("movw %D, (%A)");                                         //carega o novo valor que SP aponta
 
             } else if (segment.equals("temp")) {
+                commands.add("leaw $"+String.valueOf(index + 5)+", %A");                //carrega o numero passado depois da palavra e soma 5 já que temp comeca na RAM[5]
+                commands.add("movw %A, %D");                                            //carega o valor da linha da memoria e salva em %D
+                commands.add("leaw $SP, %A");                                          //%A = 0
+                commands.add("movw (%A), %A");                                         //%A é o valor da memoria
+                commands.add("movw %D, (%A)");                                         //move o resultado de %d (static) para o valor da memória apontada pelo SP
+                commands.add("leaw $SP, %A");                                          //%A = 0
+                commands.add("movw (%A), %D");                                         //pega o valor a pontado por SP e salva em %D
+                commands.add("incw %D");                                               //aumenta em 1 o valor de %D
+                commands.add("movw %D, (%A)");                                         //carega o novo valor que SP aponta
 
             } else if (segment.equals("pointer")) {
                 if(index==0) {
+                    commands.add("leaw $THIS,%A");
+                    commands.add("movw (%A),%D");    //move o valor que esta no THIS para o %D
+                    commands.add("leaw $SP,%A");     //Carega SP em %A
+                    commands.add("movw (%A),%A");    //Pega o nuemero que SP aponta e salva em %A
+                    commands.add("movw %D,(%A)");    //move o valor do %D para a momoria apontada pelo SP
+                    commands.add("leaw $SP,%A");     //Carega SP em %A
+                    commands.add("movw (%A),%D");    //Pega numero que SP aponta e salva em %D
+                    commands.add("incw %D");         //Aumenta o valor em 1
+                    commands.add("movw %D,(%A)");    //Salva esse valor em SP
 
                 } else {
+                    commands.add("leaw $THAT,%A");
+                    commands.add("movw (%A),%D");    //move o valor que esta no THAT para o %D
+                    commands.add("leaw $SP,%A");     //Carega SP em %A
+                    commands.add("movw (%A),%A");    //Pega o nuemero que SP aponta e salva em %A
+                    commands.add("movw %D,(%A)");    //move o valor do %D para a momoria apontada pelo SP
+                    commands.add("leaw $SP,%A");     //Carega SP em %A
+                    commands.add("movw (%A),%D");    //Pega numero que SP aponta e salva em %D
+                    commands.add("incw %D");         //Aumenta o valor em 1
+                    commands.add("movw %D,(%A)");    //Salva esse valor em SP
 
                 }
             }
