@@ -552,8 +552,11 @@ public class Code {
     public void writeLabel(String label) {
 
         List<String> commands = new ArrayList<String>();
-        commands.add( "; Label (marcador)" );
-
+        commands.add("; Label (marcador)");
+        commands.add(label + ":");
+        String[] stringArray = new String[commands.size()];
+        commands.toArray(stringArray);
+        write(stringArray);
     }
 
     /**
