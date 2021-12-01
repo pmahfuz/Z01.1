@@ -565,10 +565,17 @@ public class Code {
 
         List<String> commands = new ArrayList<String>();
         commands.add(String.format("; %d - Goto Incondicional", lineCode++));
+        System.out.print("leaw $"+label+",%A");
+        commands.add("leaw $"+label+",%A");
+        commands.add("jmp");
+        commands.add("nop");
 
+        String[] stringArray = new String[ commands.size() ];
+        commands.toArray( stringArray );
+        write(stringArray);
     }
 
-    /**
+    /*
      * Grava no arquivo de saida as instruções em Assembly para gerar as instruções de goto condicional (jumps condicionais).
      * Realiza um jump condicional para o label informado.
      * @param  label define jump a ser realizado para um label (marcador).
